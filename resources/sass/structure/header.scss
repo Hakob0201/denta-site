@@ -1,0 +1,130 @@
+.menu-body {
+    .menu-body-nav {
+        height: 4.375rem;
+        border-bottom: 1px solid rgba(119, 127, 185, 0.27);
+
+        .logo {
+            margin: 0 117px;
+        }
+    }
+
+    .menu-body-main {
+        margin-top: 70px;
+        height: calc(100vh - 140px);
+    }
+
+    @screen lg {
+        .menu-custom, .menu-news {
+            padding: 100px 0 36px;
+        }
+
+        .menu-body-main {
+            margin-top: 0;
+            height: 100vh;
+        }
+    }
+
+    @screen xl {
+        .menu-custom, .menu-news {
+            padding: 225px 0 36px;
+        }
+    }
+
+    .menu-news {
+        .sub-cat {
+            a {
+                padding: 0.375rem 0.75rem;
+            }
+        }
+    }
+}
+
+.nav-top, .nav-bottom {
+    height: 4.375rem;
+}
+
+.logo-wrap {
+    min-width: 14rem;
+
+    img {
+        width: 68px;
+    }
+}
+
+.nav-top {
+    .menu, .search, .mobile-feed {
+        height: 4.375rem;
+        width: 5rem;
+    }
+
+    .search-result {
+        margin-bottom: 70px;
+    }
+
+    @screen lg {
+        .search-body {
+            left: 300px;
+            right: 80px;
+
+            .search-result {
+                top: 70px;
+
+                > div > div{
+                    max-height: calc(100vh - 140px);
+                }
+            }
+        }
+    }
+
+    .search {
+        left: 50%;
+        transform: translate(-50%, 0);
+
+        @screen lg {
+            left: auto;
+            transform: none;
+        }
+    }
+
+    .languages {
+        padding: 6px 12px;
+        top: 19px;
+
+        a {
+            transition: .3s;
+            overflow: hidden;
+
+            &.selected {
+                order: 3;
+            }
+            &:not(.selected) {
+                max-width: 0;
+                max-height: 0;
+            }
+        }
+        &:hover {
+            a:not(.selected) {
+                max-width: 100px;
+                max-height: 100px;
+                padding: 20px 12px 0;
+
+                @screen lg {
+                    padding: 0;
+                    margin: 0 8px 0 0;
+                }
+            }
+        }
+    }
+
+    .submenu-master:hover {
+        .submenu {
+            max-height: 100vh;
+        }
+    }
+
+    .submenu {
+        top: 68px;
+        max-height: 0;
+        transition: .3s max-height;
+    }
+}

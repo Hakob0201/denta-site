@@ -1,0 +1,15 @@
+@tailwind base;
+
+@import "./main.scss";
+@import "./plugins.scss";
+@import "./structure/_all.scss";
+@import "./articles/_all.scss";
+@import "./pages/_all.scss";
+
+@import '~owl.carousel';
+@import '~magnific-popup';
+@import '~air-datepicker/dist/css/datepicker.css';
+
+@tailwind components;
+
+@tailwind utilities;

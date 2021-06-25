@@ -1,0 +1,191 @@
+.load-more {
+    .icon {
+        left: -40px;
+    }
+}
+
+// Layout Shift prevention
+.owl-carousel:not(.owl-loaded) {
+    display: flex !important;
+    overflow: hidden;
+
+    .item {
+        width: 100%;
+        flex-shrink: 0;
+
+        > img {
+            width: 100%;
+        }
+    }
+}
+
+.owl-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(0, -100%);
+    padding-bottom: 1.2rem;
+
+    .owl-prev {
+        margin-right: 1rem;
+    }
+
+    .owl-prev, .owl-next {
+        outline: none;
+
+        &.disabled {
+            opacity: .2;
+        }
+    }
+}
+
+.owl-carousel .w-auto {
+    width: auto !important;
+}
+
+.slider-half, .slider-full {
+    .owl-stage-outer {
+        margin: 0 -16px;
+
+        @screen sm {
+            margin: 0;
+        }
+    }
+
+    .owl-item {
+        right: 4px;
+
+        @screen sm {
+            right: 0;
+        }
+    }
+
+    .owl-stage {
+        display: flex;
+    }
+    .owl-item {
+        display: flex;
+    }
+
+    h2, p, time {
+        padding-left: 0.125rem;
+    }
+
+    h2 {
+        max-height: 100px;
+    }
+
+    p {
+        max-height: 96px;
+    }
+}
+
+.article-slider {
+    .owl-nav {
+        top: auto;
+        bottom: 0;
+        transform: none;
+        padding: 1.2rem;
+    }
+}
+
+.owl-dots {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+
+    .owl-dot {
+        span {
+            display: block;
+            background: white;
+            padding: 6px;
+            margin: 4px;
+            border-radius: 100%;
+            border: 1px solid black;
+        }
+
+        &.active {
+            span {
+                @apply bg-primary-100;
+            }
+        }
+    }
+}
+
+.datepickers-container {
+    right: 0;
+}
+
+.datepicker {
+    width: calc(100% - 32px);
+    z-index: 10;
+
+    @screen sm {
+        width: 330px;
+        padding: 0 30px;
+    }
+
+    .datepicker--nav {
+        padding: 20px 0 10px;
+        border-bottom: none;
+        @apply text-24;
+        color: #DF7C7C;
+
+        .datepicker--nav-title i {
+            color: #DF7C7C;
+        }
+    }
+
+    .datepicker--content {
+        padding: 10px 0px;
+    }
+
+    .datepicker--days-names {
+        margin: 10px 0;
+
+        .datepicker--day-name {
+            @apply text-15;
+            @apply text-primary-50;
+            text-transform: capitalize;
+        }
+    }
+
+    .datepicker--cells-months {
+        height: 100%;
+
+        .datepicker--cell-month {
+            padding: 10px 0;
+        }
+    }
+
+    .datepicker--buttons {
+        padding: 15px 0;
+
+        .datepicker--button {
+            @apply text-orange;
+            @apply text-18;
+        }
+    }
+}
+
+.datepicker--cell {
+    margin: 3px 0px;
+    @apply text-primary-100;
+    @apply font-semibold;
+
+    &.-current- {
+        @apply text-orange;
+    }
+
+    &.-selected- {
+        @apply bg-orange;
+
+        &:hover {
+            @apply bg-orange;
+        }
+    }
+}

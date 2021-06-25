@@ -1,0 +1,14 @@
+footer {
+    .logo {
+        .logo-desc {
+            display: none;
+
+            @screen lg {
+                display: block;
+            }
+        }
+        img {
+            width: 96px;
+        }
+    }
+}

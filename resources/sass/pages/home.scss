@@ -1,0 +1,62 @@
+.top {
+    .top-big {
+        height: 420px;
+
+        .content {
+            padding: 26px 35px;
+        }
+    }
+}
+
+.other-big {
+    height: 400px;
+}
+
+.slider-half {
+    time {
+        margin: 6px 0 4px;
+    }
+}
+
+.most-viewed {
+    a {
+        padding: 20px 2px;
+        flex: 1 1 33%;
+    }
+    @screen lg {
+        .header {
+            padding-left: 80px;
+        }
+        a {
+            padding: 30px 80px;
+        }
+    }
+}
+
+.feed {
+    overflow-x: hidden;
+
+    .relative-date {
+        top: -20px;
+        padding: 0.375rem 0.75rem;
+        box-shadow: inset 3px 0;
+    }
+
+    .feed-img {
+        width: 94px;
+        height: 70px;
+    }
+
+    .live {
+        padding: 7px 10px;
+    }
+
+    @screen lg {
+        max-width: 420px;
+        max-height: 640px;
+
+        .relative-date {
+            top: 0;
+        }
+    }
+}

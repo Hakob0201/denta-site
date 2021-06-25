@@ -1,0 +1,297 @@
+img {
+    object-fit: cover;
+}
+
+img:not(.article-image), .other-big, .top-big {
+    max-height: 390px;
+
+    @screen sm {
+        max-height: 100%;
+    }
+}
+
+section {
+    margin-bottom: 70px;
+
+    @screen lg {
+        margin-bottom: 100px;
+    }
+}
+
+.open-sesame {
+    &.open {
+        .door {
+            img {
+                transform: rotate(90deg);
+            }
+        }
+
+        .sesame {
+            max-height: 400px;
+        }
+    }
+
+    .sesame {
+        transition: .3s;
+        max-height: 0;
+        margin: 0;
+        overflow: hidden;
+
+        @screen lg {
+            max-height: 100%;
+        }
+    }
+}
+
+.open-top {
+    opacity: 1 !important;
+    --transform-translate-y: 0 !important;
+}
+
+.relative-date {
+    text-transform: capitalize;
+}
+
+ul {
+    padding-left: 1.25rem;
+    list-style-type: disc;
+}
+
+a {
+    transition: .2s;
+
+    h2, h3, h4, p {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+
+    h3 {
+        -webkit-line-clamp: 3;
+    }
+
+    h4 {
+        -webkit-line-clamp: 2;
+    }
+
+    h2, h3, p, img {
+        transition: .2s;
+    }
+
+    &:not(.hover-orange):not(.ignore-hover) {
+        &:hover {
+            h2, h3, p {
+                @apply opacity-60;
+            }
+
+            > img:first-child {
+                filter: drop-shadow(2px 2px 2px #D3D2DD) brightness(1.2);
+            }
+        }
+    }
+
+    &.hover-orange {
+        &:hover {
+            @apply text-orange;
+
+            .img-20 {
+                filter: sepia(1) saturate(10) hue-rotate(-45deg);
+            }
+
+            .img-50 {
+                filter: sepia(1) saturate(6) hue-rotate(-10deg) brightness(135%);
+            }
+
+            h2, h3, p {
+                @apply text-orange;
+            }
+
+            p {
+                @apply text-opacity-80;
+            }
+        }
+    }
+}
+
+@screen lg {
+    .custom-scroll::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    .custom-scroll::-webkit-scrollbar-thumb {
+        background-color: hsla(0, 0%, 66.3%, .31);
+    }
+}
+
+.mobile-move {
+    transition: .3s;
+
+    &.hide {
+        bottom: -100%;
+    }
+}
+
+.divide-me {
+    position: relative;
+
+    &:after, &:before {
+        position: absolute;
+        content: '';
+        left: -1px;
+        top: -1px;
+        background: white;
+    }
+
+    &:after {
+        bottom: 0;
+        width: 3px;
+    }
+
+    &:before {
+        right: 0;
+        height: 3px;
+    }
+}
+
+.logo {
+    .logo-desc {
+        margin: -3px 10px 0 0;
+    }
+}
+
+.socials {
+    .hover-orange {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+.banner {
+    max-height: 12.25rem;
+
+    + a {
+        min-width: 280px;
+    }
+}
+
+
+.container {
+    .podcast {
+        .mr-12 {
+            margin: 0 10px 0 8px !important;
+        }
+
+        .play {
+            margin: 0 0 0 8px;
+        }
+    }
+
+    .podcast-control {
+        .cursor-pointer {
+            &.play-pause {
+                .play, .pause {
+                    width: 20px;
+                }
+            }
+        }
+    }
+
+    .article-body {
+        font-size: 17px;
+
+        h1 {
+            font-size: 26px;
+        }
+    }
+
+    .author-share {
+        font-size: 14px;
+
+        .print {
+            width: 24px;
+        }
+
+        .socials {
+            a {
+                width: 28px;
+                height: 28px;
+            }
+        }
+
+    }
+
+
+    .article-body {
+        audio {
+            width: 88%;
+
+            &::-webkit-media-controls-panel {
+                background: #E8E9F0;
+            }
+
+            &::-webkit-media-controls-mute-button {
+                border: 4px solid #4EB5E6;
+
+            }
+
+        }
+    }
+}
+
+
+.owl-nav {
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.most-read-title {
+    width: 270px;
+    font-size: 17px;
+}
+
+.slider-full {
+    p {
+        max-height: 100px !important;
+        line-height: 22px !important;
+    }
+}
+
+.search-button {
+    .serch {
+        width: 24px;
+        height: 24px;
+        opacity: 0.7;
+    }
+}
+
+.menu-content {
+    margin-right: 70px;
+}
+
+.menu-news-content {
+    margin-right: 246px;
+}
+
+.head-href {
+    h2 {
+        font-size: 18px;
+    }
+}
+
+.article-share-img {
+    width: 20px;
+}
+
+article {
+    .container {
+        time {
+            font-size: 16px;
+        }
+    }
+}
+
+

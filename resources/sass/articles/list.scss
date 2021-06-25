@@ -1,0 +1,24 @@
+.cat-cal {
+    top: 70px;
+
+    @screen lg {
+        top: 100px;
+    }
+
+    .category {
+        max-width: 190px;
+        padding: 10px 16px;
+    }
+
+    .by-cats {
+        width: calc(100% - 88px);
+    }
+}
+
+.cat-articles {
+    max-width: 1070px;
+}
+
+.cat-videos {
+    max-width: 960px;
+}
