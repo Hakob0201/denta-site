@@ -373,7 +373,7 @@ class ArticleController extends Controller
 
         $articles = Cache::remember($cachekey, 2 * 62, function () use ($category) {
 
-            $articles = ArticleHeadline::with('mainimage'); //->with('authors'); //
+            $articles = ArticleHeadline::with('content')->with('mainimage'); //->with('authors'); //
 
             if (!is_null($category)) {
                 $articles->where('category_key', $category);

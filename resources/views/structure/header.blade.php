@@ -1,79 +1,110 @@
-<header class="mainHeader btClear gutter">
-    <div class="mainHeaderInner">
-        <div class="topBar btClear">
-            <div class="topBarPort port btClear">
-                <div class="topTools btTopToolsRight">
-                    <div class="btIconWidget btWidgetWithText">
-                        <div class="btIconWidgetIcon"><span data-ico-fontawesome="" class="bt_bb_icon_holder"></span></div>
-                        <div class="btIconWidgetContent"><span class="btIconWidgetTitle">Monday to Friday</span><span class="btIconWidgetText">8AM - 9PM</span></div>
-                    </div>
-                    <div class="btIconWidget btWidgetWithText">
-                        <div class="btIconWidgetIcon"><span data-ico-fontawesome5solid="" class="bt_bb_icon_holder"></span></div>
-                        <div class="btIconWidgetContent"><span class="btIconWidgetTitle">Address</span><span class="btIconWidgetText">Deák Ferenc Street 19, Budapest, Hungary</span></div>
-                    </div>
-                    <div class="btBox widget_bt_button_widget btIconWidget btIconWidgetLeft">
-                        <a href="tel:+3655540069" target="_self" class="bt_button_widget bt_bb_button_link bt_button_widget_alternate" title="+36 55 540 069">
-                            <span class="bt_bb_button_text">+36 55 540 069</span><span data-ico-fontawesome5solid="" class="bt_bb_icon_holder"></span>
-                        </a>
-                    </div>
-                </div>
-                <!-- /ttRight -->
-            </div>
-            <!-- /topBarPort -->
-        </div>
-        <!-- /topBar -->
-        <div class="btLogoArea menuHolder btClear">
-            <div class="port">
-                <div class="btHorizontalMenuTrigger">
-                    &nbsp;
-                    <div class="bt_bb_icon">
-                        <a href="#" target="_self" data-ico-fa="" class="bt_bb_icon_holder"></a>
-                    </div>
-                </div>
-                <div class="logo">
-                    <span>
-                        <a href="http://denticare.bold-themes.com/oscar/">
-                            <img class="btMainLogo" data-hw="1.9607843137255" src="http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/denticare-logo.png" alt="Oscar" />
-                        </a>
-                    </span>
-                </div>
-                <!-- /logo -->
-                <div class="menuPort">
-                    <div class="topBarInMenu">
-                        <div class="topBarInMenuCell">
-                            <div class="btTopBox woocommerce widget_shopping_cart">
-                                <h2 class="widgettitle">Cart</h2>
-                                <div class="widget_shopping_cart_content"></div>
-                            </div>
-                            <div class="btTopBox widget_search btIconWidget">
-                                <div class="btSearch">
-                                    <div class="bt_bb_icon">
-                                        <a href="#" target="_self" data-ico-fa="" class="bt_bb_icon_holder"></a>
-                                    </div>
+<!-- ========================= Header =========================== -->
+<header class="header header-layout1">
+    <div class="header-topbar">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <ul class="contact__list d-flex flex-wrap align-items-center list-unstyled mb-0">
+                            <li>
+                                <button class="miniPopup-emergency-trigger" type="button">24/7 Emergency</button>
+                                <div id="miniPopup-emergency" class="miniPopup miniPopup-emergency text-center">
+                                    <div class="emergency__icon"><i class="icon-call3"></i></div>
+                                    @foreach(config('site.contacts.phone') as $key => $value)
+                                        <a href="tel:{{ str_replace(' ', '', str_replace('-', '', str_replace('(' , '', str_replace(')', '', $value)))) }}" class="phone__number"><i class="icon-phone"></i>
+                                            <span>{{ $value }}</span>
+                                        </a>
+                                    @endforeach
+                                    <p>Please feel free to contact our friendly reception staff with any general or medical enquiry.</p>
+                                    <a href="appointment.html" class="btn btn__secondary btn__link btn__block"><span>Make Appointment</span><i class="icon-arrow-right"></i></a>
                                 </div>
-                            </div>
-                            <a href="https://www.facebook.com/boldthemes/" target="_blank" class="btIconWidget">
-                                <div class="btIconWidgetIcon"><span data-ico-fontawesome5brands="" class="bt_bb_icon_holder"></span></div>
-                            </a>
-                            <a href="https://twitter.com/bold_themes" target="_blank" class="btIconWidget">
-                                <div class="btIconWidgetIcon"><span data-ico-fontawesome5brands="" class="bt_bb_icon_holder"></span></div>
-                            </a>
-                            <a href="#" target="_self" class="btIconWidget">
-                                <div class="btIconWidgetIcon"><span data-ico-fontawesome5brands="" class="bt_bb_icon_holder"></span></div>
-                            </a>
-                            <a href="#" target="_self" class="btIconWidget">
-                                <div class="btIconWidgetIcon"><span data-ico-fontawesome5brands="" class="bt_bb_icon_holder"></span></div>
-                            </a>
+                                <!-- /.miniPopup-emergency -->
+                            </li>
+                            @foreach(config('site.contacts.phone') as $key => $value)
+                                <li>
+                                    <i class="icon-phone"></i>
+                                    <a href="tel:{{ str_replace(' ', '', str_replace('-', '', str_replace('(' , '', str_replace(')', '', $value)))) }}">
+                                        {{ $value }}
+                                    </a>
+                                </li>
+                            @endforeach
+                            @if(config('site.contacts.address.' . $locale))
+                                <li><i class="icon-location"></i><a href="#">Location: {{ config('site.contacts.address.' . $locale) }}</a></li>
+                            @endif
+                            <li><i class="icon-clock"></i><a href="contact-us.html">Mon - Fri:8:00 am - 7:00 pm</a></li>
+                        </ul>
+                        <!-- /.contact__list -->
+                        <div class="d-flex">
+                            <ul class="social-icons list-unstyled mb-0 mr-30">
+                                <li>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+                            </ul>
+                            <!-- /.social-icons -->
+                            <form class="header-topbar__search">
+                                <input type="text" class="form-control" placeholder="Search..." /><button class="header-topbar__search-btn"><i class="fa fa-search"></i></button>
+                            </form>
                         </div>
-                        <!-- /topBarInMenu -->
                     </div>
-                    <!-- /topBarInMenuCell -->
                 </div>
-                <!-- .menuPort -->
+                <!-- /.col-12 -->
             </div>
-            <!-- /port -->
+            <!-- /.row -->
         </div>
-        <!-- /menuHolder / btBelowLogoArea -->
+        <!-- /.container -->
     </div>
-    <!-- / inner header for scrolling -->
+    <!-- /.header-top -->
+    <nav class="navbar navbar-expand-lg sticky-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index-2.html"><img src="{{ asset('assets/images/logo/logo-light.png') }}" class="logo-light" alt="logo" /><img src="{{ asset('assets/images/logo/logo-dark.png') }}" class="logo-dark" alt="logo" /></a>
+            <button class="navbar-toggler" type="button">
+                    <span class="menu-lines"><span></span></span>
+                </button>
+            <div class="collapse navbar-collapse" id="mainNavigation">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav__item">
+                        <a href="/{{ $locale }}/articles" class="nav__item-link">Posts</a>
+                    </li>
+                    @foreach(($remaining = $categories->where('layout_id', '!=' , $layouts['category']['key']['custom'])->where('visible', 1))->slice(0, 5) as $key => $cat)
+                        <li class="nav__item">
+                            <a href="/{{ $locale }}/articles/{{ $cat->category_key }}" class="nav__item-link">{{ $cat->category_name }}</a>
+                        </li>
+                    @endforeach
+                </ul>
+                <!-- /.navbar-nav -->
+                <button class="close-mobile-menu d-block d-lg-none"><i class="fas fa-times"></i></button>
+            </div>
+            <!-- /.navbar-collapse -->
+            <div class="d-none d-xl-flex align-items-center position-relative ml-30">
+                {{-- <div class="miniPopup-departments-trigger">
+                    <span class="menu-lines" id="miniPopup-departments-trigger-icon"><span></span></span><a href="departments.html">Departments</a>
+                </div>
+                <ul id="miniPopup-departments" class="miniPopup miniPopup-departments dropdown-menu">
+                    <li class="nav__item"><a href="department-single.html" class="nav__item-link">Neurology Clinic</a></li>
+                    <!-- /.nav-item -->
+                    <li class="nav__item"><a href="department-single.html" class="nav__item-link">Cardiology Clinic</a></li>
+                    <!-- /.nav-item -->
+                    <li class="nav__item"><a href="department-single.html" class="nav__item-link">Pathology Clinic</a></li>
+                    <!-- /.nav-item -->
+                    <li class="nav__item"><a href="department-single.html" class="nav__item-link">Laboratory Clinic</a></li>
+                    <!-- /.nav-item -->
+                    <li class="nav__item"><a href="department-single.html" class="nav__item-link">Pediatric Clinic</a></li>
+                    <!-- /.nav-item -->
+                    <li class="nav__item"><a href="department-single.html" class="nav__item-link">Cardiac Clinic</a></li>
+                    <!-- /.nav-item -->
+                </ul> --}}
+                <!-- /.miniPopup-departments -->
+                <a href="appointment.html" class="btn btn__primary btn__rounded ml-30"><i class="icon-calendar"></i><span>Appointment</span></a>
+            </div>
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- /.navabr -->
 </header>
+<!-- /.Header -->

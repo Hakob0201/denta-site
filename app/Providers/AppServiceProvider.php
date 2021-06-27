@@ -12,9 +12,9 @@ class AppServiceProvider extends ServiceProvider {
      * @return void
      */
     public function boot() {
-        // if (env('APP_ENV') !== 'local') {
-        //     $this->app['request']->server->set('HTTPS', true);
-        // }
+        if (env('APP_ENV') !== 'local') {
+            $this->app['request']->server->set('HTTPS', true);
+        }
         Schema::defaultStringLength(191);
 
         $categories = getCategories();

@@ -16,14 +16,13 @@ class HomeController extends Controller {
         $mostRead    = app('App\Http\Controllers\ArticleController')->articleMostRead();
         $headlines   = app('App\Http\Controllers\ArticleController')->articleHeadlines();
         $cats        = array_values(config('site.home.structure'));
-        $page        = 0;
+        $page        = 0;   
 
         MetaTag::setTags([
             'title' => __('main.meta.title'),
             'description' => __('main.meta.description'),
         ]);
 
-//        dd($headlines);
         return view('pages.home', compact('feed', 'mostRead', 'headlines', 'cats', 'page'));
     }
 }

@@ -1,1485 +1,131 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="btContentWrap btClear" style="padding-top: 139px;">
-        <section
-            class="bt_bb_section gutter bt_bb_vertical_align_top btPageHeadline bt_bb_background_image bt_bb_background_overlay_light_solid bt_bb_parallax btLightSkin"
-            style="background-image: url('../wp-content/uploads/sites/15/2020/01/post-06.jpg'); background-position: 50% -503.225px;"
-            data-parallax="0.8"
-            data-parallax-offset="-300"
-        >
-            <div class="bt_bb_port port">
-                <div class="bt_bb_cell">
-                    <div class="bt_bb_cell_inner">
-                        <div class="bt_bb_row" data-structure="">
-                            <div class="bt_bb_column">
-                                <div class="bt_bb_column_content">
-                                    <header class="bt_bb_headline bt_bb_dash_bottom bt_bb_size_large bt_bb_superheadline bt_bb_subheadline">
-                                        <div class="bt_bb_headline_superheadline_outside">
-                                        <span class="bt_bb_headline_superheadline">
-                                            <span class="btBreadCrumbs">
-                                                <span><a href="../index.html">Home</a></span>
-                                            </span>
-                                        </span>
-                                        </div>
-                                        <h1>
-                                            <span class="bt_bb_headline_content"><span> News</span></span>
-                                        </h1>
-                                        <div class="bt_bb_headline_subheadline">Globally harness multimedia based collaboration and idea-sharing with backend products. Continually whiteboard superior opportunities via covalent scenarios.</div>
-                                    </header>
-                                </div>
-                                <!-- /rowItemContent -->
-                            </div>
-                            <!-- /rowItem -->
-                        </div>
-                        <!-- /boldRow -->
-                    </div>
-                    <!-- boldCellInner -->
-                </div>
-                <!-- boldCell -->
-            </div>
-            <!-- port -->
-        </section>
-        <div class="btContentHolder">
-            <div class="btContent">
-                <article
-                    class="btPostListColumns gutter btArticleListItem animate bt_bb_animation_fade_in bt_bb_animation_move_up post-284 post type-post status-publish format-standard has-post-thumbnail sticky hentry category-news category-prevention category-teeth tag-extraction tag-teeth animated"
-                >
-                    <div class="port">
-                        <div class="btArticleContentHolder">
-                            <div class="btArticleMedia">
-                                <div class="btMediaBox">
-                                    <a href="../2019/10/21/tooth-extraction-aftercare-a-how-to-guide/index.html" title="Tooth extraction aftercare: A how-to guide">
-                                        <img src="../wp-content/uploads/sites/15/2020/01/post-12-640x480.jpg" alt="http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-12-640x480.jpg" />
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- /btArticleMedia -->
-                            <div class="btArticleTextContent">
-                                <div class="btArticleHeadline">
-                                    <header class="bt_bb_headline bt_bb_dash_bottom bt_bb_size_medium bt_bb_superheadline bt_bb_subheadline">
-                                        <div class="bt_bb_headline_superheadline_outside">
-                                        <span class="bt_bb_headline_superheadline">
-                                            <span class="btArticleCategories">
-                                                <a href="../category/news/index.html" class="btArticleCategory news">News</a><a href="../category/prevention/index.html" class="btArticleCategory prevention">Prevention</a>
-                                                <a href="../category/teeth/index.html" class="btArticleCategory teeth">Teeth</a>
-                                            </span>
-                                        </span>
-                                        </div>
-                                        <h2>
-                                        <span class="bt_bb_headline_content">
-                                            <span>
-                                                <a href="../2019/10/21/tooth-extraction-aftercare-a-how-to-guide/index.html" target="_self" title="Tooth extraction aftercare: A how-to guide">Tooth extraction aftercare: A how-to guide</a>
-                                            </span>
-                                        </span>
-                                        </h2>
-                                        <div class="bt_bb_headline_subheadline">
-                                            <span class="btArticleDate">October 21, 2019</span><span class="btArticleAuthor"><a href="../author/boldthemes/index.html" class="btArticleAuthorURL">by BoldThemes</a></span>
-                                            <a href="../2019/10/21/tooth-extraction-aftercare-a-how-to-guide/index.html#comments" class="btArticleComments">2</a>
-                                        </div>
-                                    </header>
-                                </div>
-                                <!-- /btArticleHeadline -->
-                                <div class="btShareRow">
-                                    <div class="bt_bb_icon btIcoFacebook bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://www.facebook.com/sharer/sharer.php?u=http://denticare.bold-themes.com/oscar/2019/10/21/tooth-extraction-aftercare-a-how-to-guide/"
-                                            target="_self"
-                                            title="Share on Facebook"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoTwitter bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://twitter.com/intent/tweet?text=http://denticare.bold-themes.com/oscar/2019/10/21/tooth-extraction-aftercare-a-how-to-guide/"
-                                            target="_self"
-                                            title="Share on Twitter"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoLinkedin bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://www.linkedin.com/shareArticle?url=http://denticare.bold-themes.com/oscar/2019/10/21/tooth-extraction-aftercare-a-how-to-guide/"
-                                            target="_self"
-                                            title="Share on Linkedin"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoWhatsApp bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://api.whatsapp.com/send?text=http://denticare.bold-themes.com/oscar/2019/10/21/tooth-extraction-aftercare-a-how-to-guide/"
-                                            target="_self"
-                                            title="Share on WhatsApp"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                </div>
-                                <!-- /btShareRow -->
-                            </div>
-                            <!-- /btArticleTextContent -->
-                        </div>
-                        <!-- /btContent -->
-                    </div>
-                    <!-- /port -->
-                </article>
-                <article
-                    class="btPostListColumns gutter btArticleListItem animate bt_bb_animation_fade_in bt_bb_animation_move_up post-280 post type-post status-publish format-gallery has-post-thumbnail hentry category-factcheck category-news tag-disease tag-gums tag-health-issues post_format-post-format-gallery animated"
-                >
-                    <div class="port">
-                        <div class="btArticleContentHolder">
-                            <div class="btArticleMedia">
-                                <div class="btMediaBox">
-                                    <div class="bt_bb_slider bt_bb_slider_49368 bt_bb_height_auto bt_bb_show_dots_bottom">
-                                        <div
-                                            class="slick-slider fade slick-initialized slick-dotted"
-                                            data-slick='{ "lazyLoad": "progressive", "cssEase": "ease-out", "speed": "300", "fade": true, "adaptiveHeight": true, "dots": true, "prevArrow": "<button type=\"button\" class=\"slick-prev\">", "nextArrow": "<button type=\"button\" class=\"slick-next\">","autoplay": true, "autoplaySpeed": 3000}'
-                                            role="toolbar"
-                                        >
-                                            <button type="button" class="slick-prev slick-arrow" style=""></button>
-                                            <div aria-live="polite" class="slick-list draggable" style="height: 294.719px; overflow: hidden;">
-                                                <div class="slick-track" style="opacity: 1; width: 2652px;" role="listbox">
-                                                    <div
-                                                        class="bt_bb_slider_item slick-slide"
-                                                        data-slick-index="0"
-                                                        aria-hidden="true"
-                                                        style="width: 442px; position: relative; left: 0px; top: 0px; z-index: 998; opacity: 0; transition: opacity 300ms ease-out 0s;"
-                                                        tabindex="-1"
-                                                        role="option"
-                                                        aria-describedby="slick-slide00"
-                                                    >
-                                                        <img src="../wp-content/uploads/sites/15/2020/01/post-25.jpg" alt="" />
-                                                    </div>
-                                                    <div
-                                                        class="bt_bb_slider_item slick-slide"
-                                                        data-slick-index="1"
-                                                        aria-hidden="true"
-                                                        style="width: 442px; position: relative; left: -442px; top: 0px; z-index: 998; opacity: 0; transition: opacity 300ms ease-out 0s;"
-                                                        tabindex="-1"
-                                                        role="option"
-                                                        aria-describedby="slick-slide01"
-                                                    >
-                                                        <img src="../wp-content/uploads/sites/15/2020/01/post-26.jpg" alt="" />
-                                                    </div>
-                                                    <div
-                                                        class="bt_bb_slider_item slick-slide"
-                                                        data-slick-index="2"
-                                                        aria-hidden="true"
-                                                        style="width: 442px; position: relative; left: -884px; top: 0px; z-index: 998; opacity: 0; transition: opacity 300ms ease-out 0s;"
-                                                        tabindex="-1"
-                                                        role="option"
-                                                        aria-describedby="slick-slide02"
-                                                    >
-                                                        <img src="../wp-content/uploads/sites/15/2020/01/post-27.jpg" alt="" />
-                                                    </div>
-                                                    <div
-                                                        class="bt_bb_slider_item slick-slide slick-current slick-active"
-                                                        data-slick-index="3"
-                                                        aria-hidden="false"
-                                                        style="width: 442px; position: relative; left: -1326px; top: 0px; z-index: 999; opacity: 1;"
-                                                        tabindex="-1"
-                                                        role="option"
-                                                        aria-describedby="slick-slide03"
-                                                    >
-                                                        <img src="../wp-content/uploads/sites/15/2020/01/post-29.jpg" alt="" />
-                                                    </div>
-                                                    <div
-                                                        class="bt_bb_slider_item slick-slide"
-                                                        data-slick-index="4"
-                                                        aria-hidden="true"
-                                                        style="width: 442px; position: relative; left: -1768px; top: 0px; z-index: 998; opacity: 0; transition: opacity 300ms ease-out 0s;"
-                                                        tabindex="-1"
-                                                        role="option"
-                                                        aria-describedby="slick-slide04"
-                                                    >
-                                                        <img src="../wp-content/uploads/sites/15/2020/01/post-24.jpg" alt="" />
-                                                    </div>
-                                                    <div
-                                                        class="bt_bb_slider_item slick-slide"
-                                                        data-slick-index="5"
-                                                        aria-hidden="true"
-                                                        style="width: 442px; position: relative; left: -2210px; top: 0px; z-index: 998; opacity: 0; transition: opacity 300ms ease-out 0s;"
-                                                        tabindex="-1"
-                                                        role="option"
-                                                        aria-describedby="slick-slide05"
-                                                    >
-                                                        <img src="../wp-content/uploads/sites/15/2020/01/post-23.jpg" alt="" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <button type="button" class="slick-next slick-arrow" style=""></button>
-                                            <ul class="slick-dots" style="" role="tablist">
-                                                <li class="" aria-hidden="true" role="presentation" aria-selected="true" aria-controls="navigation00" id="slick-slide00">
-                                                    <button type="button" data-role="none" role="button" tabindex="0">1</button>
-                                                </li>
-                                                <li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation01" id="slick-slide01" class="">
-                                                    <button type="button" data-role="none" role="button" tabindex="0">2</button>
-                                                </li>
-                                                <li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation02" id="slick-slide02" class="">
-                                                    <button type="button" data-role="none" role="button" tabindex="0">3</button>
-                                                </li>
-                                                <li aria-hidden="false" role="presentation" aria-selected="false" aria-controls="navigation03" id="slick-slide03" class="slick-active">
-                                                    <button type="button" data-role="none" role="button" tabindex="0">4</button>
-                                                </li>
-                                                <li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation04" id="slick-slide04" class="">
-                                                    <button type="button" data-role="none" role="button" tabindex="0">5</button>
-                                                </li>
-                                                <li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation05" id="slick-slide05" class="">
-                                                    <button type="button" data-role="none" role="button" tabindex="0">6</button>
-                                                </li>
-                                                <li class="bt_bb_slider_paging bt_bb_slider_49368" role="presentation" aria-selected="false" aria-controls="navigation06" id="slick-slide06" aria-hidden="true">06</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /btArticleMedia -->
-                            <div class="btArticleTextContent">
-                                <div class="btArticleHeadline">
-                                    <header class="bt_bb_headline bt_bb_dash_bottom bt_bb_size_medium bt_bb_superheadline bt_bb_subheadline">
-                                        <div class="bt_bb_headline_superheadline_outside">
-                                        <span class="bt_bb_headline_superheadline">
-                                            <span class="btArticleCategories">
-                                                <a href="../category/factcheck/index.html" class="btArticleCategory factcheck">Factcheck</a><a href="../category/news/index.html" class="btArticleCategory news">News</a>
-                                            </span>
-                                        </span>
-                                        </div>
-                                        <h2>
-                                        <span class="bt_bb_headline_content">
-                                            <span><a href="../2019/12/18/the-unexpected-dangers-of-gum-disease/index.html" target="_self" title="The unexpected dangers of gum disease">The unexpected dangers of gum disease</a></span>
-                                        </span>
-                                        </h2>
-                                        <div class="bt_bb_headline_subheadline">
-                                            <span class="btArticleDate">December 18, 2019</span><span class="btArticleAuthor"><a href="../author/boldthemes/index.html" class="btArticleAuthorURL">by BoldThemes</a></span>
-                                            <a href="../2019/12/18/the-unexpected-dangers-of-gum-disease/index.html#comments" class="btArticleComments">0</a>
-                                        </div>
-                                    </header>
-                                </div>
-                                <!-- /btArticleHeadline -->
-                                <div class="btShareRow">
-                                    <div class="bt_bb_icon btIcoFacebook bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://www.facebook.com/sharer/sharer.php?u=http://denticare.bold-themes.com/oscar/2019/12/18/the-unexpected-dangers-of-gum-disease/"
-                                            target="_self"
-                                            title="Share on Facebook"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoTwitter bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://twitter.com/intent/tweet?text=http://denticare.bold-themes.com/oscar/2019/12/18/the-unexpected-dangers-of-gum-disease/"
-                                            target="_self"
-                                            title="Share on Twitter"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoLinkedin bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://www.linkedin.com/shareArticle?url=http://denticare.bold-themes.com/oscar/2019/12/18/the-unexpected-dangers-of-gum-disease/"
-                                            target="_self"
-                                            title="Share on Linkedin"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoWhatsApp bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://api.whatsapp.com/send?text=http://denticare.bold-themes.com/oscar/2019/12/18/the-unexpected-dangers-of-gum-disease/"
-                                            target="_self"
-                                            title="Share on WhatsApp"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                </div>
-                                <!-- /btShareRow -->
-                            </div>
-                            <!-- /btArticleTextContent -->
-                        </div>
-                        <!-- /btContent -->
-                    </div>
-                    <!-- /port -->
-                </article>
-                <article
-                    class="btPostListColumns gutter btArticleListItem animate bt_bb_animation_fade_in bt_bb_animation_move_up post-279 post type-post status-publish format-gallery has-post-thumbnail hentry category-factcheck category-news tag-extraction tag-tooth tag-what-to-know post_format-post-format-gallery animated"
-                >
-                    <div class="port">
-                        <div class="btArticleContentHolder">
-                            <div class="btArticleMedia">
-                                <div class="btMediaBox">
-                                    <div class="bt_bb_slider bt_bb_slider_3395 bt_bb_height_auto bt_bb_show_dots_bottom">
-                                        <div
-                                            class="slick-slider fade slick-initialized slick-dotted"
-                                            data-slick='{ "lazyLoad": "progressive", "cssEase": "ease-out", "speed": "300", "fade": true, "adaptiveHeight": true, "dots": true, "prevArrow": "<button type=\"button\" class=\"slick-prev\">", "nextArrow": "<button type=\"button\" class=\"slick-next\">","autoplay": true, "autoplaySpeed": 3000}'
-                                            role="toolbar"
-                                        >
-                                            <button type="button" class="slick-prev slick-arrow" style=""></button>
-                                            <div aria-live="polite" class="slick-list draggable" style="height: 294.719px; overflow: hidden;">
-                                                <div class="slick-track" style="opacity: 1; width: 1326px;" role="listbox">
-                                                    <div
-                                                        class="bt_bb_slider_item slick-slide slick-current slick-active"
-                                                        data-slick-index="0"
-                                                        aria-hidden="false"
-                                                        style="width: 442px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;"
-                                                        tabindex="-1"
-                                                        role="option"
-                                                        aria-describedby="slick-slide10"
-                                                    >
-                                                        <img src="../wp-content/uploads/sites/15/2020/01/post-21.jpg" alt="" />
-                                                    </div>
-                                                    <div
-                                                        class="bt_bb_slider_item slick-slide"
-                                                        data-slick-index="1"
-                                                        aria-hidden="true"
-                                                        style="width: 442px; position: relative; left: -442px; top: 0px; z-index: 998; opacity: 0; transition: opacity 300ms ease-out 0s;"
-                                                        tabindex="-1"
-                                                        role="option"
-                                                        aria-describedby="slick-slide11"
-                                                    >
-                                                        <img src="../wp-content/uploads/sites/15/2020/01/post-19.jpg" alt="" />
-                                                    </div>
-                                                    <div
-                                                        class="bt_bb_slider_item slick-slide"
-                                                        data-slick-index="2"
-                                                        aria-hidden="true"
-                                                        style="width: 442px; position: relative; left: -884px; top: 0px; z-index: 998; opacity: 0; transition: opacity 300ms ease-out 0s;"
-                                                        tabindex="-1"
-                                                        role="option"
-                                                        aria-describedby="slick-slide12"
-                                                    >
-                                                        <img src="../wp-content/uploads/sites/15/2020/01/post-30.jpg" alt="" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <button type="button" class="slick-next slick-arrow" style=""></button>
-                                            <ul class="slick-dots" style="" role="tablist">
-                                                <li class="slick-active" aria-hidden="false" role="presentation" aria-selected="true" aria-controls="navigation10" id="slick-slide10">
-                                                    <button type="button" data-role="none" role="button" tabindex="0">1</button>
-                                                </li>
-                                                <li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation11" id="slick-slide11" class="">
-                                                    <button type="button" data-role="none" role="button" tabindex="0">2</button>
-                                                </li>
-                                                <li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation12" id="slick-slide12" class="">
-                                                    <button type="button" data-role="none" role="button" tabindex="0">3</button>
-                                                </li>
-                                                <li class="bt_bb_slider_paging bt_bb_slider_3395" role="presentation" aria-selected="false" aria-controls="navigation13" id="slick-slide13" aria-hidden="true">03</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /btArticleMedia -->
-                            <div class="btArticleTextContent">
-                                <div class="btArticleHeadline">
-                                    <header class="bt_bb_headline bt_bb_dash_bottom bt_bb_size_medium bt_bb_superheadline bt_bb_subheadline">
-                                        <div class="bt_bb_headline_superheadline_outside">
-                                        <span class="bt_bb_headline_superheadline">
-                                            <span class="btArticleCategories">
-                                                <a href="../category/factcheck/index.html" class="btArticleCategory factcheck">Factcheck</a><a href="../category/news/index.html" class="btArticleCategory news">News</a>
-                                            </span>
-                                        </span>
-                                        </div>
-                                        <h2>
-                                        <span class="bt_bb_headline_content">
-                                            <span><a href="../2019/12/12/what-to-know-about-tooth-extraction/index.html" target="_self" title="What to know about tooth extraction">What to know about tooth extraction</a></span>
-                                        </span>
-                                        </h2>
-                                        <div class="bt_bb_headline_subheadline">
-                                            <span class="btArticleDate">December 12, 2019</span><span class="btArticleAuthor"><a href="../author/boldthemes/index.html" class="btArticleAuthorURL">by BoldThemes</a></span>
-                                            <a href="../2019/12/12/what-to-know-about-tooth-extraction/index.html#comments" class="btArticleComments">2</a>
-                                        </div>
-                                    </header>
-                                </div>
-                                <!-- /btArticleHeadline -->
-                                <div class="btShareRow">
-                                    <div class="bt_bb_icon btIcoFacebook bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://www.facebook.com/sharer/sharer.php?u=http://denticare.bold-themes.com/oscar/2019/12/12/what-to-know-about-tooth-extraction/"
-                                            target="_self"
-                                            title="Share on Facebook"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoTwitter bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://twitter.com/intent/tweet?text=http://denticare.bold-themes.com/oscar/2019/12/12/what-to-know-about-tooth-extraction/"
-                                            target="_self"
-                                            title="Share on Twitter"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoLinkedin bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://www.linkedin.com/shareArticle?url=http://denticare.bold-themes.com/oscar/2019/12/12/what-to-know-about-tooth-extraction/"
-                                            target="_self"
-                                            title="Share on Linkedin"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoWhatsApp bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://api.whatsapp.com/send?text=http://denticare.bold-themes.com/oscar/2019/12/12/what-to-know-about-tooth-extraction/"
-                                            target="_self"
-                                            title="Share on WhatsApp"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                </div>
-                                <!-- /btShareRow -->
-                            </div>
-                            <!-- /btArticleTextContent -->
-                        </div>
-                        <!-- /btContent -->
-                    </div>
-                    <!-- /port -->
-                </article>
-                <article
-                    class="btPostListColumns gutter btArticleListItem animate bt_bb_animation_fade_in bt_bb_animation_move_up post-282 post type-post status-publish format-standard has-post-thumbnail hentry category-interesting category-teeth tag-factcheck tag-interesting tag-tooth"
-                >
-                    <div class="port">
-                        <div class="btArticleContentHolder">
-                            <div class="btArticleMedia">
-                                <div class="btMediaBox">
-                                    <a href="../2019/12/08/teeth-names-types-and-functions/index.html" title="Teeth: Names, types, and functions">
-                                        <img src="../wp-content/uploads/sites/15/2020/01/post-01-640x480.jpg" alt="http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-01-640x480.jpg" />
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- /btArticleMedia -->
-                            <div class="btArticleTextContent">
-                                <div class="btArticleHeadline">
-                                    <header class="bt_bb_headline bt_bb_dash_bottom bt_bb_size_medium bt_bb_superheadline bt_bb_subheadline">
-                                        <div class="bt_bb_headline_superheadline_outside">
-                                        <span class="bt_bb_headline_superheadline">
-                                            <span class="btArticleCategories">
-                                                <a href="../category/interesting/index.html" class="btArticleCategory interesting">Interesting</a><a href="../category/teeth/index.html" class="btArticleCategory teeth">Teeth</a>
-                                            </span>
-                                        </span>
-                                        </div>
-                                        <h2>
-                                        <span class="bt_bb_headline_content">
-                                            <span><a href="../2019/12/08/teeth-names-types-and-functions/index.html" target="_self" title="Teeth: Names, types, and functions">Teeth: Names, types, and functions</a></span>
-                                        </span>
-                                        </h2>
-                                        <div class="bt_bb_headline_subheadline">
-                                            <span class="btArticleDate">December 8, 2019</span><span class="btArticleAuthor"><a href="../author/boldthemes/index.html" class="btArticleAuthorURL">by BoldThemes</a></span>
-                                            <a href="../2019/12/08/teeth-names-types-and-functions/index.html#comments" class="btArticleComments">4</a>
-                                        </div>
-                                    </header>
-                                </div>
-                                <!-- /btArticleHeadline -->
-                                <div class="btShareRow">
-                                    <div class="bt_bb_icon btIcoFacebook bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://www.facebook.com/sharer/sharer.php?u=http://denticare.bold-themes.com/oscar/2019/12/08/teeth-names-types-and-functions/"
-                                            target="_self"
-                                            title="Share on Facebook"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoTwitter bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://twitter.com/intent/tweet?text=http://denticare.bold-themes.com/oscar/2019/12/08/teeth-names-types-and-functions/"
-                                            target="_self"
-                                            title="Share on Twitter"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoLinkedin bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://www.linkedin.com/shareArticle?url=http://denticare.bold-themes.com/oscar/2019/12/08/teeth-names-types-and-functions/"
-                                            target="_self"
-                                            title="Share on Linkedin"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoWhatsApp bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://api.whatsapp.com/send?text=http://denticare.bold-themes.com/oscar/2019/12/08/teeth-names-types-and-functions/"
-                                            target="_self"
-                                            title="Share on WhatsApp"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                </div>
-                                <!-- /btShareRow -->
-                            </div>
-                            <!-- /btArticleTextContent -->
-                        </div>
-                        <!-- /btContent -->
-                    </div>
-                    <!-- /port -->
-                </article>
-                <article
-                    class="btPostListColumns gutter btArticleListItem animate bt_bb_animation_fade_in bt_bb_animation_move_up post-278 post type-post status-publish format-image has-post-thumbnail hentry category-interesting category-news category-teeth tag-enamel tag-teeth post_format-post-format-image"
-                >
-                    <div class="port">
-                        <div class="btArticleContentHolder">
-                            <div class="btArticleMedia">
-                                <div class="btMediaBox">
-                                    <a href="../2019/11/25/how-does-tooth-enamel-last-a-lifetime/index.html" title="How does tooth enamel last a lifetime?">
-                                        <img src="../wp-content/uploads/sites/15/2020/01/post-06-640x480.jpg" alt="http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-06-640x480.jpg" />
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- /btArticleMedia -->
-                            <div class="btArticleTextContent">
-                                <div class="btArticleHeadline">
-                                    <header class="bt_bb_headline bt_bb_dash_bottom bt_bb_size_medium bt_bb_superheadline bt_bb_subheadline">
-                                        <div class="bt_bb_headline_superheadline_outside">
-                                        <span class="bt_bb_headline_superheadline">
-                                            <span class="btArticleCategories">
-                                                <a href="../category/interesting/index.html" class="btArticleCategory interesting">Interesting</a><a href="../category/news/index.html" class="btArticleCategory news">News</a>
-                                                <a href="../category/teeth/index.html" class="btArticleCategory teeth">Teeth</a>
-                                            </span>
-                                        </span>
-                                        </div>
-                                        <h2>
-                                        <span class="bt_bb_headline_content">
-                                            <span><a href="../2019/11/25/how-does-tooth-enamel-last-a-lifetime/index.html" target="_self" title="How does tooth enamel last a lifetime?">How does tooth enamel last a lifetime?</a></span>
-                                        </span>
-                                        </h2>
-                                        <div class="bt_bb_headline_subheadline">
-                                            <span class="btArticleDate">November 25, 2019</span><span class="btArticleAuthor"><a href="../author/boldthemes/index.html" class="btArticleAuthorURL">by BoldThemes</a></span>
-                                            <a href="../2019/11/25/how-does-tooth-enamel-last-a-lifetime/index.html#comments" class="btArticleComments">0</a>
-                                        </div>
-                                    </header>
-                                </div>
-                                <!-- /btArticleHeadline -->
-                                <div class="btShareRow">
-                                    <div class="bt_bb_icon btIcoFacebook bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://www.facebook.com/sharer/sharer.php?u=http://denticare.bold-themes.com/oscar/2019/11/25/how-does-tooth-enamel-last-a-lifetime/"
-                                            target="_self"
-                                            title="Share on Facebook"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoTwitter bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://twitter.com/intent/tweet?text=http://denticare.bold-themes.com/oscar/2019/11/25/how-does-tooth-enamel-last-a-lifetime/"
-                                            target="_self"
-                                            title="Share on Twitter"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoLinkedin bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://www.linkedin.com/shareArticle?url=http://denticare.bold-themes.com/oscar/2019/11/25/how-does-tooth-enamel-last-a-lifetime/"
-                                            target="_self"
-                                            title="Share on Linkedin"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoWhatsApp bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://api.whatsapp.com/send?text=http://denticare.bold-themes.com/oscar/2019/11/25/how-does-tooth-enamel-last-a-lifetime/"
-                                            target="_self"
-                                            title="Share on WhatsApp"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                </div>
-                                <!-- /btShareRow -->
-                            </div>
-                            <!-- /btArticleTextContent -->
-                        </div>
-                        <!-- /btContent -->
-                    </div>
-                    <!-- /port -->
-                </article>
-                <article
-                    class="btPostListColumns gutter btArticleListItem animate bt_bb_animation_fade_in bt_bb_animation_move_up post-287 post type-post status-publish format-audio has-post-thumbnail hentry category-news category-prevention tag-medicine tag-toothache post_format-post-format-audio"
-                >
-                    <div class="port">
-                        <div class="btArticleContentHolder">
-                            <div class="btArticleMedia">
-                                <div class="btMediaBox audio">
-                                    <iframe
-                                        height="450"
-                                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/509378580&amp;color=%23fb17ce&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"
-                                    ></iframe>
-                                </div>
-                            </div>
-                            <!-- /btArticleMedia -->
-                            <div class="btArticleTextContent">
-                                <div class="btArticleHeadline">
-                                    <header class="bt_bb_headline bt_bb_dash_bottom bt_bb_size_medium bt_bb_superheadline bt_bb_subheadline">
-                                        <div class="bt_bb_headline_superheadline_outside">
-                                        <span class="bt_bb_headline_superheadline">
-                                            <span class="btArticleCategories">
-                                                <a href="../category/news/index.html" class="btArticleCategory news">News</a><a href="../category/prevention/index.html" class="btArticleCategory prevention">Prevention</a>
-                                            </span>
-                                        </span>
-                                        </div>
-                                        <h2>
-                                        <span class="bt_bb_headline_content">
-                                            <span><a href="../2019/11/14/audio-post/index.html" target="_self" title="How to get rid of a toothache at night">How to get rid of a toothache at night</a></span>
-                                        </span>
-                                        </h2>
-                                        <div class="bt_bb_headline_subheadline">
-                                            <span class="btArticleDate">November 14, 2019</span><span class="btArticleAuthor"><a href="../author/boldthemes/index.html" class="btArticleAuthorURL">by BoldThemes</a></span>
-                                            <a href="../2019/11/14/audio-post/index.html#comments" class="btArticleComments">0</a>
-                                        </div>
-                                    </header>
-                                </div>
-                                <!-- /btArticleHeadline -->
-                                <div class="btShareRow">
-                                    <div class="bt_bb_icon btIcoFacebook bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a href="https://www.facebook.com/sharer/sharer.php?u=http://denticare.bold-themes.com/oscar/2019/11/14/audio-post/" target="_self" title="Share on Facebook" data-ico-fa="" class="bt_bb_icon_holder"></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoTwitter bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a href="https://twitter.com/intent/tweet?text=http://denticare.bold-themes.com/oscar/2019/11/14/audio-post/" target="_self" title="Share on Twitter" data-ico-fa="" class="bt_bb_icon_holder"></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoLinkedin bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a href="https://www.linkedin.com/shareArticle?url=http://denticare.bold-themes.com/oscar/2019/11/14/audio-post/" target="_self" title="Share on Linkedin" data-ico-fa="" class="bt_bb_icon_holder"></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoWhatsApp bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a href="https://api.whatsapp.com/send?text=http://denticare.bold-themes.com/oscar/2019/11/14/audio-post/" target="_self" title="Share on WhatsApp" data-ico-fa="" class="bt_bb_icon_holder"></a>
-                                    </div>
-                                </div>
-                                <!-- /btShareRow -->
-                            </div>
-                            <!-- /btArticleTextContent -->
-                        </div>
-                        <!-- /btContent -->
-                    </div>
-                    <!-- /port -->
-                </article>
-                <article
-                    class="btPostListColumns gutter btArticleListItem animate bt_bb_animation_fade_in bt_bb_animation_move_up post-291 post type-post status-publish format-link has-post-thumbnail hentry category-brushing category-interesting category-news tag-brushing tag-hearth tag-teeth post_format-post-format-link"
-                >
-                    <div class="port">
-                        <div class="btArticleContentHolder">
-                            <div class="btArticleMedia">
-                                <div class="btMediaBox btDarkSkin btLink" style="background-image: url(../wp-content/uploads/sites/15/2020/01/post-04-640x480.jpg);">
-                                    <blockquote>
-                                        <p><a href="https://bit.ly/2MYJpMm">Check out the article here</a></p>
-                                        <cite><a href="https://bit.ly/2MYJpMm">https://bit.ly/2MYJpMm</a></cite>
-                                    </blockquote>
-                                </div>
-                            </div>
-                            <!-- /btArticleMedia -->
-                            <div class="btArticleTextContent">
-                                <div class="btArticleHeadline">
-                                    <header class="bt_bb_headline bt_bb_dash_bottom bt_bb_size_medium bt_bb_superheadline bt_bb_subheadline">
-                                        <div class="bt_bb_headline_superheadline_outside">
-                                        <span class="bt_bb_headline_superheadline">
-                                            <span class="btArticleCategories">
-                                                <a href="../category/brushing/index.html" class="btArticleCategory brushing">Brushing</a><a href="../category/interesting/index.html" class="btArticleCategory interesting">Interesting</a>
-                                                <a href="../category/news/index.html" class="btArticleCategory news">News</a>
-                                            </span>
-                                        </span>
-                                        </div>
-                                        <h2>
-                                        <span class="bt_bb_headline_content">
-                                            <span>
-                                                <a href="../2019/11/07/brushing-your-teeth-may-keep-your-heart-healthy/index.html" target="_self" title="Brushing your teeth may keep your heart healthy">
-                                                    Brushing your teeth may keep your heart healthy
-                                                </a>
-                                            </span>
-                                        </span>
-                                        </h2>
-                                        <div class="bt_bb_headline_subheadline">
-                                            <span class="btArticleDate">November 7, 2019</span><span class="btArticleAuthor"><a href="../author/boldthemes/index.html" class="btArticleAuthorURL">by BoldThemes</a></span>
-                                            <a href="../2019/11/07/brushing-your-teeth-may-keep-your-heart-healthy/index.html#comments" class="btArticleComments">0</a>
-                                        </div>
-                                    </header>
-                                </div>
-                                <!-- /btArticleHeadline -->
-                                <div class="btShareRow">
-                                    <div class="bt_bb_icon btIcoFacebook bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://www.facebook.com/sharer/sharer.php?u=http://denticare.bold-themes.com/oscar/2019/11/07/brushing-your-teeth-may-keep-your-heart-healthy/"
-                                            target="_self"
-                                            title="Share on Facebook"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoTwitter bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://twitter.com/intent/tweet?text=http://denticare.bold-themes.com/oscar/2019/11/07/brushing-your-teeth-may-keep-your-heart-healthy/"
-                                            target="_self"
-                                            title="Share on Twitter"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoLinkedin bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://www.linkedin.com/shareArticle?url=http://denticare.bold-themes.com/oscar/2019/11/07/brushing-your-teeth-may-keep-your-heart-healthy/"
-                                            target="_self"
-                                            title="Share on Linkedin"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoWhatsApp bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://api.whatsapp.com/send?text=http://denticare.bold-themes.com/oscar/2019/11/07/brushing-your-teeth-may-keep-your-heart-healthy/"
-                                            target="_self"
-                                            title="Share on WhatsApp"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                </div>
-                                <!-- /btShareRow -->
-                            </div>
-                            <!-- /btArticleTextContent -->
-                        </div>
-                        <!-- /btContent -->
-                    </div>
-                    <!-- /port -->
-                </article>
-                <article
-                    class="btPostListColumns gutter btArticleListItem animate bt_bb_animation_fade_in bt_bb_animation_move_up post-283 post type-post status-publish format-gallery has-post-thumbnail hentry category-news category-prevention category-whitening tag-interesting tag-prevention tag-whitening post_format-post-format-gallery"
-                >
-                    <div class="port">
-                        <div class="btArticleContentHolder">
-                            <div class="btArticleMedia">
-                                <div class="btMediaBox">
-                                    <div class="bt_bb_slider bt_bb_slider_40402 bt_bb_height_auto bt_bb_show_dots_bottom">
-                                        <div
-                                            class="slick-slider fade slick-initialized slick-dotted"
-                                            data-slick='{ "lazyLoad": "progressive", "cssEase": "ease-out", "speed": "300", "fade": true, "adaptiveHeight": true, "dots": true, "prevArrow": "<button type=\"button\" class=\"slick-prev\">", "nextArrow": "<button type=\"button\" class=\"slick-next\">","autoplay": true, "autoplaySpeed": 3000}'
-                                            role="toolbar"
-                                        >
-                                            <button type="button" class="slick-prev slick-arrow" style=""></button>
-                                            <div aria-live="polite" class="slick-list draggable" style="height: 294.719px; overflow: hidden;">
-                                                <div class="slick-track" style="opacity: 1; width: 2652px;" role="listbox">
-                                                    <div
-                                                        class="bt_bb_slider_item slick-slide"
-                                                        data-slick-index="0"
-                                                        aria-hidden="true"
-                                                        style="width: 442px; position: relative; left: 0px; top: 0px; z-index: 998; opacity: 0; transition: opacity 300ms ease-out 0s;"
-                                                        tabindex="-1"
-                                                        role="option"
-                                                        aria-describedby="slick-slide20"
-                                                    >
-                                                        <img src="../wp-content/uploads/sites/15/2020/01/post-28.jpg" alt="" />
-                                                    </div>
-                                                    <div
-                                                        class="bt_bb_slider_item slick-slide"
-                                                        data-slick-index="1"
-                                                        aria-hidden="true"
-                                                        style="width: 442px; position: relative; left: -442px; top: 0px; z-index: 998; opacity: 0; transition: opacity 300ms ease-out 0s;"
-                                                        tabindex="-1"
-                                                        role="option"
-                                                        aria-describedby="slick-slide21"
-                                                    >
-                                                        <img src="../wp-content/uploads/sites/15/2020/01/post-29.jpg" alt="" />
-                                                    </div>
-                                                    <div
-                                                        class="bt_bb_slider_item slick-slide"
-                                                        data-slick-index="2"
-                                                        aria-hidden="true"
-                                                        style="width: 442px; position: relative; left: -884px; top: 0px; z-index: 998; opacity: 0; transition: opacity 300ms ease-out 0s;"
-                                                        tabindex="-1"
-                                                        role="option"
-                                                        aria-describedby="slick-slide22"
-                                                    >
-                                                        <img src="../wp-content/uploads/sites/15/2020/01/post-30.jpg" alt="" />
-                                                    </div>
-                                                    <div
-                                                        class="bt_bb_slider_item slick-slide slick-current slick-active"
-                                                        data-slick-index="3"
-                                                        aria-hidden="false"
-                                                        style="width: 442px; position: relative; left: -1326px; top: 0px; z-index: 999; opacity: 1;"
-                                                        tabindex="-1"
-                                                        role="option"
-                                                        aria-describedby="slick-slide23"
-                                                    >
-                                                        <img src="../wp-content/uploads/sites/15/2020/01/post-31.jpg" alt="" />
-                                                    </div>
-                                                    <div
-                                                        class="bt_bb_slider_item slick-slide"
-                                                        data-slick-index="4"
-                                                        aria-hidden="true"
-                                                        style="width: 442px; position: relative; left: -1768px; top: 0px; z-index: 998; opacity: 0; transition: opacity 300ms ease-out 0s;"
-                                                        tabindex="-1"
-                                                        role="option"
-                                                        aria-describedby="slick-slide24"
-                                                    >
-                                                        <img src="../wp-content/uploads/sites/15/2020/01/post-24.jpg" alt="" />
-                                                    </div>
-                                                    <div
-                                                        class="bt_bb_slider_item slick-slide"
-                                                        data-slick-index="5"
-                                                        aria-hidden="true"
-                                                        style="width: 442px; position: relative; left: -2210px; top: 0px; z-index: 998; opacity: 0; transition: opacity 300ms ease-out 0s;"
-                                                        tabindex="-1"
-                                                        role="option"
-                                                        aria-describedby="slick-slide25"
-                                                    >
-                                                        <img src="../wp-content/uploads/sites/15/2020/01/post-25.jpg" alt="" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <button type="button" class="slick-next slick-arrow" style=""></button>
-                                            <ul class="slick-dots" style="" role="tablist">
-                                                <li class="" aria-hidden="true" role="presentation" aria-selected="true" aria-controls="navigation20" id="slick-slide20">
-                                                    <button type="button" data-role="none" role="button" tabindex="0">1</button>
-                                                </li>
-                                                <li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation21" id="slick-slide21" class="">
-                                                    <button type="button" data-role="none" role="button" tabindex="0">2</button>
-                                                </li>
-                                                <li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation22" id="slick-slide22" class="">
-                                                    <button type="button" data-role="none" role="button" tabindex="0">3</button>
-                                                </li>
-                                                <li aria-hidden="false" role="presentation" aria-selected="false" aria-controls="navigation23" id="slick-slide23" class="slick-active">
-                                                    <button type="button" data-role="none" role="button" tabindex="0">4</button>
-                                                </li>
-                                                <li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation24" id="slick-slide24" class="">
-                                                    <button type="button" data-role="none" role="button" tabindex="0">5</button>
-                                                </li>
-                                                <li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation25" id="slick-slide25" class="">
-                                                    <button type="button" data-role="none" role="button" tabindex="0">6</button>
-                                                </li>
-                                                <li class="bt_bb_slider_paging bt_bb_slider_40402" role="presentation" aria-selected="false" aria-controls="navigation26" id="slick-slide26" aria-hidden="true">06</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /btArticleMedia -->
-                            <div class="btArticleTextContent">
-                                <div class="btArticleHeadline">
-                                    <header class="bt_bb_headline bt_bb_dash_bottom bt_bb_size_medium bt_bb_superheadline bt_bb_subheadline">
-                                        <div class="bt_bb_headline_superheadline_outside">
-                                        <span class="bt_bb_headline_superheadline">
-                                            <span class="btArticleCategories">
-                                                <a href="../category/news/index.html" class="btArticleCategory news">News</a><a href="../category/prevention/index.html" class="btArticleCategory prevention">Prevention</a>
-                                                <a href="../category/whitening/index.html" class="btArticleCategory whitening">Whitening</a>
-                                            </span>
-                                        </span>
-                                        </div>
-                                        <h2>
-                                        <span class="bt_bb_headline_content">
-                                            <span>
-                                                <a href="../2019/10/16/how-whitening-strips-can-damage-your-teeth/index.html" target="_self" title="How whitening strips can damage your teeth">How whitening strips can damage your teeth</a>
-                                            </span>
-                                        </span>
-                                        </h2>
-                                        <div class="bt_bb_headline_subheadline">
-                                            <span class="btArticleDate">October 16, 2019</span><span class="btArticleAuthor"><a href="../author/boldthemes/index.html" class="btArticleAuthorURL">by BoldThemes</a></span>
-                                            <a href="../2019/10/16/how-whitening-strips-can-damage-your-teeth/index.html#comments" class="btArticleComments">0</a>
-                                        </div>
-                                    </header>
-                                </div>
-                                <!-- /btArticleHeadline -->
-                                <div class="btShareRow">
-                                    <div class="bt_bb_icon btIcoFacebook bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://www.facebook.com/sharer/sharer.php?u=http://denticare.bold-themes.com/oscar/2019/10/16/how-whitening-strips-can-damage-your-teeth/"
-                                            target="_self"
-                                            title="Share on Facebook"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoTwitter bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://twitter.com/intent/tweet?text=http://denticare.bold-themes.com/oscar/2019/10/16/how-whitening-strips-can-damage-your-teeth/"
-                                            target="_self"
-                                            title="Share on Twitter"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoLinkedin bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://www.linkedin.com/shareArticle?url=http://denticare.bold-themes.com/oscar/2019/10/16/how-whitening-strips-can-damage-your-teeth/"
-                                            target="_self"
-                                            title="Share on Linkedin"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoWhatsApp bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://api.whatsapp.com/send?text=http://denticare.bold-themes.com/oscar/2019/10/16/how-whitening-strips-can-damage-your-teeth/"
-                                            target="_self"
-                                            title="Share on WhatsApp"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                </div>
-                                <!-- /btShareRow -->
-                            </div>
-                            <!-- /btArticleTextContent -->
-                        </div>
-                        <!-- /btContent -->
-                    </div>
-                    <!-- /port -->
-                </article>
-                <article
-                    class="btPostListColumns gutter btArticleListItem animate bt_bb_animation_fade_in bt_bb_animation_move_up post-289 post type-post status-publish format-quote has-post-thumbnail hentry category-interesting category-news category-prevention tag-health-issues tag-teeth post_format-post-format-quote"
-                >
-                    <div class="port">
-                        <div class="btArticleContentHolder">
-                            <div class="btArticleMedia">
-                                <div class="btMediaBox btQuote btDarkSkin" style="background-image: url(../wp-content/uploads/sites/15/2020/01/post-15-640x480.jpg);">
-                                    <blockquote>
-                                        <p>
-                                            <a href="../2019/10/04/health-benefits-of-baking-soda-and-lemon-juice/index.html" title="Health benefits of baking soda and lemon juice">
-                                                Trying to define yourself is like trying to bite your own teeth.
-                                            </a>
-                                        </p>
-                                        <cite>Alan Watts</cite>
-                                    </blockquote>
-                                </div>
-                            </div>
-                            <!-- /btArticleMedia -->
-                            <div class="btArticleTextContent">
-                                <div class="btArticleHeadline">
-                                    <header class="bt_bb_headline bt_bb_dash_bottom bt_bb_size_medium bt_bb_superheadline bt_bb_subheadline">
-                                        <div class="bt_bb_headline_superheadline_outside">
-                                        <span class="bt_bb_headline_superheadline">
-                                            <span class="btArticleCategories">
-                                                <a href="../category/interesting/index.html" class="btArticleCategory interesting">Interesting</a><a href="../category/news/index.html" class="btArticleCategory news">News</a>
-                                                <a href="../category/prevention/index.html" class="btArticleCategory prevention">Prevention</a>
-                                            </span>
-                                        </span>
-                                        </div>
-                                        <h2>
-                                        <span class="bt_bb_headline_content">
-                                            <span>
-                                                <a href="../2019/10/04/health-benefits-of-baking-soda-and-lemon-juice/index.html" target="_self" title="Health benefits of baking soda and lemon juice">
-                                                    Health benefits of baking soda and lemon juice
-                                                </a>
-                                            </span>
-                                        </span>
-                                        </h2>
-                                        <div class="bt_bb_headline_subheadline">
-                                            <span class="btArticleDate">October 4, 2019</span><span class="btArticleAuthor"><a href="../author/boldthemes/index.html" class="btArticleAuthorURL">by BoldThemes</a></span>
-                                            <a href="../2019/10/04/health-benefits-of-baking-soda-and-lemon-juice/index.html#comments" class="btArticleComments">0</a>
-                                        </div>
-                                    </header>
-                                </div>
-                                <!-- /btArticleHeadline -->
-                                <div class="btShareRow">
-                                    <div class="bt_bb_icon btIcoFacebook bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://www.facebook.com/sharer/sharer.php?u=http://denticare.bold-themes.com/oscar/2019/10/04/health-benefits-of-baking-soda-and-lemon-juice/"
-                                            target="_self"
-                                            title="Share on Facebook"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoTwitter bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://twitter.com/intent/tweet?text=http://denticare.bold-themes.com/oscar/2019/10/04/health-benefits-of-baking-soda-and-lemon-juice/"
-                                            target="_self"
-                                            title="Share on Twitter"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoLinkedin bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://www.linkedin.com/shareArticle?url=http://denticare.bold-themes.com/oscar/2019/10/04/health-benefits-of-baking-soda-and-lemon-juice/"
-                                            target="_self"
-                                            title="Share on Linkedin"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoWhatsApp bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://api.whatsapp.com/send?text=http://denticare.bold-themes.com/oscar/2019/10/04/health-benefits-of-baking-soda-and-lemon-juice/"
-                                            target="_self"
-                                            title="Share on WhatsApp"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                </div>
-                                <!-- /btShareRow -->
-                            </div>
-                            <!-- /btArticleTextContent -->
-                        </div>
-                        <!-- /btContent -->
-                    </div>
-                    <!-- /port -->
-                </article>
-                <article
-                    class="btPostListColumns gutter btArticleListItem animate bt_bb_animation_fade_in bt_bb_animation_move_up post-281 post type-post status-publish format-video has-post-thumbnail hentry category-interesting category-news category-prevention tag-health tag-teeth tag-xylitol post_format-post-format-video"
-                >
-                    <div class="port">
-                        <div class="btArticleContentHolder">
-                            <div class="btArticleMedia">
-                                <div class="btMediaBox video" data-hw="0.5625">
-                                    <div class="bt-video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/fIKuRlasLlI" allowfullscreen=""></iframe></div>
-                                </div>
-                            </div>
-                            <!-- /btArticleMedia -->
-                            <div class="btArticleTextContent">
-                                <div class="btArticleHeadline">
-                                    <header class="bt_bb_headline bt_bb_dash_bottom bt_bb_size_medium bt_bb_superheadline bt_bb_subheadline">
-                                        <div class="bt_bb_headline_superheadline_outside">
-                                        <span class="bt_bb_headline_superheadline">
-                                            <span class="btArticleCategories">
-                                                <a href="../category/interesting/index.html" class="btArticleCategory interesting">Interesting</a><a href="../category/news/index.html" class="btArticleCategory news">News</a>
-                                                <a href="../category/prevention/index.html" class="btArticleCategory prevention">Prevention</a>
-                                            </span>
-                                        </span>
-                                        </div>
-                                        <h2>
-                                        <span class="bt_bb_headline_content">
-                                            <span>
-                                                <a href="../2019/09/27/xylitol-uses-effects-and-possible-benefits/index.html" target="_self" title="Xylitol: Uses, effects, and possible benefits">
-                                                    Xylitol: Uses, effects, and possible benefits
-                                                </a>
-                                            </span>
-                                        </span>
-                                        </h2>
-                                        <div class="bt_bb_headline_subheadline">
-                                            <span class="btArticleDate">September 27, 2019</span><span class="btArticleAuthor"><a href="../author/boldthemes/index.html" class="btArticleAuthorURL">by BoldThemes</a></span>
-                                            <a href="../2019/09/27/xylitol-uses-effects-and-possible-benefits/index.html#comments" class="btArticleComments">0</a>
-                                        </div>
-                                    </header>
-                                </div>
-                                <!-- /btArticleHeadline -->
-                                <div class="btShareRow">
-                                    <div class="bt_bb_icon btIcoFacebook bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://www.facebook.com/sharer/sharer.php?u=http://denticare.bold-themes.com/oscar/2019/09/27/xylitol-uses-effects-and-possible-benefits/"
-                                            target="_self"
-                                            title="Share on Facebook"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoTwitter bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://twitter.com/intent/tweet?text=http://denticare.bold-themes.com/oscar/2019/09/27/xylitol-uses-effects-and-possible-benefits/"
-                                            target="_self"
-                                            title="Share on Twitter"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoLinkedin bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://www.linkedin.com/shareArticle?url=http://denticare.bold-themes.com/oscar/2019/09/27/xylitol-uses-effects-and-possible-benefits/"
-                                            target="_self"
-                                            title="Share on Linkedin"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                    <div class="bt_bb_icon btIcoWhatsApp bt_bb_style_filled bt_bb_size_xsmall bt_bb_shape_circle">
-                                        <a
-                                            href="https://api.whatsapp.com/send?text=http://denticare.bold-themes.com/oscar/2019/09/27/xylitol-uses-effects-and-possible-benefits/"
-                                            target="_self"
-                                            title="Share on WhatsApp"
-                                            data-ico-fa=""
-                                            class="bt_bb_icon_holder"
-                                        ></a>
-                                    </div>
-                                </div>
-                                <!-- /btShareRow -->
-                            </div>
-                            <!-- /btArticleTextContent -->
-                        </div>
-                        <!-- /btContent -->
-                    </div>
-                    <!-- /port -->
-                </article>
-                <div class="btPagination boldSection gutter btPostListColumns">
-                    <div class="port">
-                        <div class="paging onRight">
-                            <p class="pageNext"><a href="page/2/index.html">Older Posts</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- /boldthemes_content -->
-            <aside class="btSidebar">
-                <div class="btBox widget_search">
-                    <div class="btSearch">
-                        <div class="bt_bb_icon"><a href="#" target="_self" data-ico-fa="" class="bt_bb_icon_holder"></a></div>
-                        <div class="btSearchInner gutter" role="search">
-                            <div class="btSearchInnerContent port">
-                                <form action="http://denticare.bold-themes.com/oscar/" method="get">
-                                    <input type="text" name="s" placeholder="Looking for..." class="untouched" />
-                                    <button type="submit" data-icon=""></button>
-                                </form>
-                                <div class="btSearchInnerClose">
-                                    <div class="bt_bb_icon"><a href="#" target="_self" data-ico-fa="" class="bt_bb_icon_holder"></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="btBox widget_bt_bb_recent_posts">
-                    <h4><span>Recent Posts</span></h4>
-                    <div class="btImageTextWidgetWraper">
-                        <ul>
-                            <li>
-                                <div class="btImageTextWidget">
-                                    <div class="btImageTextWidgetImage">
-                                        <a href="../2019/12/18/the-unexpected-dangers-of-gum-disease/index.html">
-                                            <img
-                                                width="160"
-                                                height="160"
-                                                src="../wp-content/uploads/sites/15/2020/01/post-25-160x160.jpg"
-                                                class="attachment-thumbnail size-thumbnail wp-post-image"
-                                                alt=""
-                                                loading="lazy"
-                                                srcset="
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-25-160x160.jpg    160w,
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-25-320x320.jpg    320w,
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-25-640x640.jpg    640w,
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-25-1280x1280.jpg 1280w,
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-25-300x300.jpg    300w,
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-25-100x100.jpg    100w
-                                            "
-                                                sizes="(max-width: 160px) 100vw, 160px"
-                                            />
-                                        </a>
-                                    </div>
-                                    <div class="btImageTextWidgetText">
-                                        <header class="bt_bb_headline bt_bb_size_small bt_bb_superheadline">
-                                            <h4>
-                                                <span class="bt_bb_headline_superheadline">December 18, 2019</span>
-                                                <span class="bt_bb_headline_content">
-                                                <span><a href="../2019/12/18/the-unexpected-dangers-of-gum-disease/index.html" target="_self" title="The unexpected dangers of gum disease">The unexpected dangers of gum disease</a></span>
-                                            </span>
-                                            </h4>
-                                        </header>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="btImageTextWidget">
-                                    <div class="btImageTextWidgetImage">
-                                        <a href="../2019/12/12/what-to-know-about-tooth-extraction/index.html">
-                                            <img
-                                                width="160"
-                                                height="160"
-                                                src="../wp-content/uploads/sites/15/2020/01/post-21-160x160.jpg"
-                                                class="attachment-thumbnail size-thumbnail wp-post-image"
-                                                alt=""
-                                                loading="lazy"
-                                                srcset="
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-21-160x160.jpg    160w,
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-21-320x320.jpg    320w,
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-21-640x640.jpg    640w,
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-21-1280x1280.jpg 1280w,
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-21-300x300.jpg    300w,
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-21-100x100.jpg    100w
-                                            "
-                                                sizes="(max-width: 160px) 100vw, 160px"
-                                            />
-                                        </a>
-                                    </div>
-                                    <div class="btImageTextWidgetText">
-                                        <header class="bt_bb_headline bt_bb_size_small bt_bb_superheadline">
-                                            <h4>
-                                                <span class="bt_bb_headline_superheadline">December 12, 2019</span>
-                                                <span class="bt_bb_headline_content">
-                                                <span><a href="../2019/12/12/what-to-know-about-tooth-extraction/index.html" target="_self" title="What to know about tooth extraction">What to know about tooth extraction</a></span>
-                                            </span>
-                                            </h4>
-                                        </header>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="btImageTextWidget">
-                                    <div class="btImageTextWidgetImage">
-                                        <a href="../2019/12/08/teeth-names-types-and-functions/index.html">
-                                            <img
-                                                width="160"
-                                                height="160"
-                                                src="../wp-content/uploads/sites/15/2020/01/post-01-160x160.jpg"
-                                                class="attachment-thumbnail size-thumbnail wp-post-image"
-                                                alt=""
-                                                loading="lazy"
-                                                srcset="
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-01-160x160.jpg    160w,
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-01-320x320.jpg    320w,
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-01-640x640.jpg    640w,
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-01-1280x1280.jpg 1280w,
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-01-300x300.jpg    300w,
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-01-100x100.jpg    100w
-                                            "
-                                                sizes="(max-width: 160px) 100vw, 160px"
-                                            />
-                                        </a>
-                                    </div>
-                                    <div class="btImageTextWidgetText">
-                                        <header class="bt_bb_headline bt_bb_size_small bt_bb_superheadline">
-                                            <h4>
-                                                <span class="bt_bb_headline_superheadline">December 8, 2019</span>
-                                                <span class="bt_bb_headline_content">
-                                                <span><a href="../2019/12/08/teeth-names-types-and-functions/index.html" target="_self" title="Teeth: Names, types, and functions">Teeth: Names, types, and functions</a></span>
-                                            </span>
-                                            </h4>
-                                        </header>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="btImageTextWidget">
-                                    <div class="btImageTextWidgetImage">
-                                        <a href="../2019/11/25/how-does-tooth-enamel-last-a-lifetime/index.html">
-                                            <img
-                                                width="160"
-                                                height="160"
-                                                src="../wp-content/uploads/sites/15/2020/01/post-06-160x160.jpg"
-                                                class="attachment-thumbnail size-thumbnail wp-post-image"
-                                                alt=""
-                                                loading="lazy"
-                                                srcset="
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-06-160x160.jpg    160w,
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-06-320x320.jpg    320w,
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-06-640x640.jpg    640w,
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-06-1280x1280.jpg 1280w,
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-06-300x300.jpg    300w,
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-06-100x100.jpg    100w
-                                            "
-                                                sizes="(max-width: 160px) 100vw, 160px"
-                                            />
-                                        </a>
-                                    </div>
-                                    <div class="btImageTextWidgetText">
-                                        <header class="bt_bb_headline bt_bb_size_small bt_bb_superheadline">
-                                            <h4>
-                                                <span class="bt_bb_headline_superheadline">November 25, 2019</span>
-                                                <span class="bt_bb_headline_content">
-                                                <span><a href="../2019/11/25/how-does-tooth-enamel-last-a-lifetime/index.html" target="_self" title="How does tooth enamel last a lifetime?">How does tooth enamel last a lifetime?</a></span>
-                                            </span>
-                                            </h4>
-                                        </header>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="btImageTextWidget">
-                                    <div class="btImageTextWidgetImage">
-                                        <a href="../2019/11/14/audio-post/index.html">
-                                            <img
-                                                width="160"
-                                                height="160"
-                                                src="../wp-content/uploads/sites/15/2020/01/post-14-160x160.jpg"
-                                                class="attachment-thumbnail size-thumbnail wp-post-image"
-                                                alt=""
-                                                loading="lazy"
-                                                srcset="
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-14-160x160.jpg    160w,
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-14-320x320.jpg    320w,
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-14-640x640.jpg    640w,
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-14-1280x1280.jpg 1280w,
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-14-300x300.jpg    300w,
-                                                http://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/post-14-100x100.jpg    100w
-                                            "
-                                                sizes="(max-width: 160px) 100vw, 160px"
-                                            />
-                                        </a>
-                                    </div>
-                                    <div class="btImageTextWidgetText">
-                                        <header class="bt_bb_headline bt_bb_size_small bt_bb_superheadline">
-                                            <h4>
-                                                <span class="bt_bb_headline_superheadline">November 14, 2019</span>
-                                                <span class="bt_bb_headline_content">
-                                                <span><a href="../2019/11/14/audio-post/index.html" target="_self" title="How to get rid of a toothache at night">How to get rid of a toothache at night</a></span>
-                                            </span>
-                                            </h4>
-                                        </header>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="btBox widget_archive">
-                    <h4><span>Archives</span></h4>
-                    <ul>
-                        <li><a href="../2019/12/index.html">December 2019</a>&nbsp;(3)</li>
-                        <li><a href="../2019/11/index.html">November 2019</a>&nbsp;(3)</li>
-                        <li><a href="../2019/10/index.html">October 2019</a>&nbsp;(3)</li>
-                        <li><a href="../2019/09/index.html">September 2019</a>&nbsp;(2)</li>
-                    </ul>
-                </div>
-                <div class="btBox widget_categories">
-                    <h4><span>Categories</span></h4>
-                    <form action="http://denticare.bold-themes.com/oscar" method="get">
-                        <label class="screen-reader-text" for="cat">Categories</label>
-                        <div class="fancy-select">
-                            <select name="cat" id="cat" class="postform fancified" style="width: 1px; height: 1px; display: none; position: absolute; top: 0px; left: 0px; opacity: 0;">
-                                <option value="-1">Select Category</option>
-                                <option class="level-0" value="16">Brushing&nbsp;&nbsp;(1)</option>
-                                <option class="level-0" value="17">Factcheck&nbsp;&nbsp;(3)</option>
-                                <option class="level-0" value="18">Interesting&nbsp;&nbsp;(5)</option>
-                                <option class="level-0" value="19">News&nbsp;&nbsp;(9)</option>
-                                <option class="level-0" value="20">Prevention&nbsp;&nbsp;(6)</option>
-                                <option class="level-0" value="21">Teeth&nbsp;&nbsp;(4)</option>
-                                <option class="level-0" value="22">Whitening&nbsp;&nbsp;(1)</option>
-                            </select>
-                            <div class="trigger">Select Category</div>
-                            <ul class="options">
-                                <li data-raw-value="-1" class="selected">Select Category</li>
-                                <li data-raw-value="16">Brushing&nbsp;&nbsp;(1)</li>
-                                <li data-raw-value="17">Factcheck&nbsp;&nbsp;(3)</li>
-                                <li data-raw-value="18">Interesting&nbsp;&nbsp;(5)</li>
-                                <li data-raw-value="19">News&nbsp;&nbsp;(9)</li>
-                                <li data-raw-value="20">Prevention&nbsp;&nbsp;(6)</li>
-                                <li data-raw-value="21">Teeth&nbsp;&nbsp;(4)</li>
-                                <li data-raw-value="22">Whitening&nbsp;&nbsp;(1)</li>
-                            </ul>
-                        </div>
-                    </form>
-                    <script type="text/javascript">
-                        /* <![CDATA[ */
-                        (function () {
-                            var dropdown = document.getElementById("cat");
-                            function onCatChange() {
-                                if (dropdown.options[dropdown.selectedIndex].value > 0) {
-                                    dropdown.parentNode.submit();
-                                }
-                            }
-                            dropdown.onchange = onCatChange;
-                        })();
-                        /* ]]> */
-                    </script>
-                </div>
-                <div class="btBox widget_tag_cloud">
-                    <h4><span>Tags</span></h4>
-                    <div class="tagcloud">
-                        <a href="../tag/brushing/index.html" class="tag-cloud-link tag-link-23 tag-link-position-1" style="font-size: 8pt;" aria-label="Brushing (1 item)">Brushing</a>
-                        <a href="../tag/disease/index.html" class="tag-cloud-link tag-link-24 tag-link-position-2" style="font-size: 8pt;" aria-label="Disease (1 item)">Disease</a>
-                        <a href="../tag/enamel/index.html" class="tag-cloud-link tag-link-25 tag-link-position-3" style="font-size: 8pt;" aria-label="Enamel (1 item)">Enamel</a>
-                        <a href="../tag/extraction/index.html" class="tag-cloud-link tag-link-26 tag-link-position-4" style="font-size: 12.581818181818pt;" aria-label="Extraction (2 items)">Extraction</a>
-                        <a href="../tag/factcheck/index.html" class="tag-cloud-link tag-link-27 tag-link-position-5" style="font-size: 8pt;" aria-label="Factcheck (1 item)">Factcheck</a>
-                        <a href="../tag/gums/index.html" class="tag-cloud-link tag-link-28 tag-link-position-6" style="font-size: 8pt;" aria-label="Gums (1 item)">Gums</a>
-                        <a href="../tag/health/index.html" class="tag-cloud-link tag-link-29 tag-link-position-7" style="font-size: 8pt;" aria-label="Health (1 item)">Health</a>
-                        <a href="../tag/health-issues/index.html" class="tag-cloud-link tag-link-30 tag-link-position-8" style="font-size: 12.581818181818pt;" aria-label="Health issues (2 items)">Health issues</a>
-                        <a href="../tag/hearth/index.html" class="tag-cloud-link tag-link-31 tag-link-position-9" style="font-size: 8pt;" aria-label="Hearth (1 item)">Hearth</a>
-                        <a href="../tag/interesting/index.html" class="tag-cloud-link tag-link-32 tag-link-position-10" style="font-size: 12.581818181818pt;" aria-label="Interesting (2 items)">Interesting</a>
-                        <a href="../tag/medicine/index.html" class="tag-cloud-link tag-link-33 tag-link-position-11" style="font-size: 8pt;" aria-label="Medicine (1 item)">Medicine</a>
-                        <a href="../tag/prevention/index.html" class="tag-cloud-link tag-link-34 tag-link-position-12" style="font-size: 12.581818181818pt;" aria-label="Prevention (2 items)">Prevention</a>
-                        <a href="../tag/teeth/index.html" class="tag-cloud-link tag-link-35 tag-link-position-13" style="font-size: 22pt;" aria-label="Teeth (6 items)">Teeth</a>
-                        <a href="../tag/tooth/index.html" class="tag-cloud-link tag-link-36 tag-link-position-14" style="font-size: 12.581818181818pt;" aria-label="Tooth (2 items)">Tooth</a>
-                        <a href="../tag/toothache/index.html" class="tag-cloud-link tag-link-37 tag-link-position-15" style="font-size: 8pt;" aria-label="Toothache (1 item)">Toothache</a>
-                        <a href="../tag/what-to-know/index.html" class="tag-cloud-link tag-link-38 tag-link-position-16" style="font-size: 8pt;" aria-label="What to know (1 item)">What to know</a>
-                        <a href="../tag/whitening/index.html" class="tag-cloud-link tag-link-40 tag-link-position-17" style="font-size: 8pt;" aria-label="Whitening (1 item)">Whitening</a>
-                        <a href="../tag/white-spots/index.html" class="tag-cloud-link tag-link-39 tag-link-position-18" style="font-size: 8pt;" aria-label="White spots (1 item)">White spots</a>
-                        <a href="../tag/xylitol/index.html" class="tag-cloud-link tag-link-41 tag-link-position-19" style="font-size: 8pt;" aria-label="Xylitol (1 item)">Xylitol</a>
-                    </div>
-                </div>
-            </aside>
-        </div>
-        <!-- /contentHolder -->
-    </div>
-{{-- <section class="px-0 sm:px-16">
-    <div class="container">
-        <div class="flex lg:space-x-30">
-            @include('includes.articles.feed', ['items' => $feed, 'home' => true])
-            <div class="top flex flex-col space-y-16 lg:space-y-30 flex-1 overflow-hidden">
-                @if($headlines->has($cats[0] ?? 0))
-                    <div class="owl-carousel article-slider">
-                        @foreach($headlines->get($cats[0])->slice(0, 3) as $item)
-                            <a class="top-big item relative block" href="/{{ $locale }}/article/{{ $item->article_id }}">
-                                @include('includes.articles.image', ['type' => 'w-', 'class' => 'h-full'])
-                                @if($layouts['article'][$item->layout_id] != 'article')
-                                    <img class="w-auto absolute top-0 m-12 z-10" src="/assets/svg/{{ $layouts['article'][$item->layout_id] }}-white.svg" alt="{{ $layouts['article'][$item->layout_id] }}">
-                                @endif
-                                <div class="absolute inset-0 bg-black bg-opacity-30">
-                                    <div class="content text-white absolute bottom-0">
-                                        <h2 class="mb-16 lg:mb-30 text-18 lg:text-24">{{ $item->title }}</h2>
-                                        <time class="relative-date long text-15" datetime="{{ dateF($item->datetime_at) }}">{{ $item->datetime_at }}</time>
-                                    </div>
-                                </div>
-                            </a>
-                        @endforeach
-                    </div>
-                    <div class="flex flex-wrap px-16 sm:px-0 lg:flex-no-wrap lg:space-x-30">
-                        @include('includes.banner', ['banner' => bannerSimple(1)])
-                        @if(!is_null($headlines->get($cats[0])->get(3)))
-                            <a class="flex flex-col flex-1 justify-between mb-16 lg:mb-30 p-26 bg-white shadow head-href" href="/{{ $locale }}/article/{{ $headlines->get($cats[0])->get(3)->article_id }}">
-                                <h2 class="text-primary-100 text-18 mb-16 lg:text-20 font-bold">{{ $headlines->get($cats[0])->get(3)->title }}</h2>
-                                <time class="relative-date long text-orange text-15" datetime="{{ dateF($headlines->get($cats[0])->get(3)->datetime_at) }}">{{ $headlines->get($cats[0])->get(3)->datetime_at }}</time>
-                            </a>
-                        @endif
-                    </div>
-                @endif
-            </div>
-        </div>
-    </div>
-</section>
 
-@if($headlines->has($cats[1] ?? 0))
-    <section class="px-16">
-        <div class="container">
-            <p class="text-22 text-primary-100 font-semibold pl-16 mb-26 border-l-4 border-orange">{{ $categories->firstWhere('category_key', $cats[1])->category_name }}</p>
-            <div class="grid grid-cols-6 gap-30">
-                <a class="other-big -mx-16 sm:mx-0 relative col-span-6 lg:col-span-3" href="/{{ $locale }}/article/{{ $headlines->get($cats[1])->first()->article_id }}">
-                    @include('includes.articles.image', ['item' => $headlines->get($cats[1])->first(), 'type' => 'w-', 'class' => 'w-full h-full'])
-                    <div class="absolute inset-0 bg-black bg-opacity-30">
-                        <div class="content text-white absolute bottom-0 p-26">
-                            <h2 class="mb-12 lg:mb-22 text-18 lg:text-24">{{ $headlines->get($cats[1])->first()->title }}</h2>
-                            <time class="relative-date long text-15" datetime="{{ dateF($headlines->get($cats[1])->first()->datetime_at) }}">{{ $headlines->get($cats[1])->first()->datetime_at }}</time>
-                        </div>
-                    </div>
-                </a>
-                <div class="slider-half owl-carousel owl-theme col-span-6 lg:col-span-3">
-                    @foreach($headlines->get($cats[1])->slice(1, 5) as $item)
-                        <a class="item other-slider w-full relative" href="/{{ $locale }}/article/{{ $item->article_id }}">
-                            @include('includes.articles.image')
-                            @if($layouts['article'][$item->layout_id] != 'article')
-                                <img class="w-auto absolute top-0 m-12" src="/assets/svg/{{ $layouts['article'][$item->layout_id] }}-white.svg" alt="{{ $layouts['article'][$item->layout_id] }}">
-                            @endif
-                            <time class="relative-date long text-15 text-orange block" datetime="{{ dateF($item->datetime_at) }}">{{ $item->datetime_at }}</time>
-                            <h3 class="text-primary-100 text-18 font-semibold">{{ $item->title }}</h3>
-                        </a>
-                    @endforeach
-                </div>
-            </div>
-        </div>
-    </section>
+@if($headlines->has($cats[0] ?? 0))
+    @include('structure.slider')
 @endif
+
+
 
 @if($mostRead->count() != 0)
-    <section class="px-16">
-        <p class="text-22 text-primary-100 font-semibold pl-16 mb-26 border-l-4 border-orange sm:hidden">{{ __('main.most-read') }}</p>
-        <div class="most-viewed container bg-white shadow-light p-16 sm:p-30">
-            <p class="header text-primary-100 text-22 font-semibold pb-30 border-b border-primary-20 border-opacity-50 mb-px hidden sm:block">{{ __('main.most-read') }}</p>
-            <div class="grid grid-cols-6 divide-me divide-primary-20 divide-x divide-y divide-opacity-50">
+    <!-- ============================ contact info ============================== -->
+    <section class="feed contact-info py-0" data-page="{{ ($page ? $page + 1 : 2) . (request()->get('q') ? '&q=' . request()->get('q') : '') }}" data-inline="true">
+        <div class="container">
+            <div class="row row-no-gutter boxes-wrapper">
+                @php
+                    $count = 0; 
+                @endphp
                 @foreach($mostRead as $item)
-                    <a class="col-span-6 lg:col-span-2 flex flex-col justify-between" href="/{{ $locale }}/article/{{ $item->id }}">
-                        <h2 class="text-16 sm:text-18 text-primary-100 mb-16 lg:mb-30 most-read-title">{{ $item->contents->title }}</h2>
-                        <time class="relative-date long text-15 text-orange" datetime="{{ dateF($item->contents->datetime_at) }}">{{ $item->contents->datetime_at }}</time>
-                    </a>
+                    @if($count >= 0 && $count <= 2)
+                            <div class="col-sm-12 col-md-4">
+                                <div class="contact-box d-flex">
+                                    <div class="contact__icon"><i class="icon-health-report"></i></div>
+                                    <!-- /.contact__icon -->
+                                    <div class="contact__content">
+                                        <h2 class="contact__title">{{ $item->contents->title }}</h2>
+                                        <p class="contact__desc">{!! $item->contents->text ?? '' !!}</p>
+                                        <a href="/{{ $locale }}/article/{{ $item->id }}" class="btn btn__white btn__outlined btn__rounded">
+                                            <span>View</span>
+                                            <i class="icon-arrow-right"></i></a>                
+                                        </div>
+                                    <!-- /.contact__content -->
+                                </div>
+                                <!-- /.contact-box -->
+                            </div>
+                            <!-- /.col-md-4 -->
+                        @php
+                            $count++;
+                            $last = $item->contents->date_at;
+                        @endphp
+                    @endif
+
                 @endforeach
+ 
+
             </div>
-        </div>
+        </div>  
     </section>
+    <!-- /.contact-info -->
 @endif
 
-@if($headlines->has($cats[2] ?? 0))
+
+@foreach($categories as $cat)
+    @foreach($headlines as $key => $heads)
+        @if($cat->category_key == $key)
+            <!-- ======================
+            Team
+            ========================= -->
+            <section class="team-layout2 pb-80">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                            <div class="heading text-center mb-40">
+                                <h3 class="heading__title">{{ ucfirst($key) }}</h3>
+                                {{-- <p class="heading__desc">Our administration and support staff all have exceptional people skills and trained to assist you with all medical enquiries.</p> --}}
+                            </div>
+                            <!-- /.heading -->
+                        </div>
+                        <!-- /.col-lg-6 -->
+                    </div>
+                    <!-- /.row -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="slick-carousel" data-slick='{"slidesToShow":3,"slidesToScroll":1,"autoplay":true,"arrows":false,"dots":false,"responsive":[{"breakpoint":992,"settings":{"slidesToShow":2}},{"breakpoint":767,"settings":{"slidesToShow":1}},{"breakpoint":480,"settings":{"slidesToShow":1}}]}'>
+                                @foreach($heads as $head)
+                                    <!-- Member -->
+                                    <div class="member">
+                                        <div class="member__img">
+                                            @if($head->image)
+                                                @if(isset($amp))
+                                                    <amp-img layout="responsive" src="/storage{{ $head->image->url . (isset($type) ? $type : '') . $head->image->name }}" alt="{{ $head->contents ? $head->contents->title : $head->title }}"
+                                                            width = "740"
+                                                            height = "490">
+                                                    </amp-img>
+                                                @else
+                                                    <img src="/storage{{ $head->image->url . (isset($type) ? $type : '') . $head->image->name }}" alt="{{ $head->contents ? $head->contents->title : $head->title }}" style="width: 100%;">
+                                                @endif
+                                            @endif
+
+                                        </div>
+                                        <!-- /.member-img -->
+                                        <div class="member__info">
+                                            <h5 class="member__name">
+                                                <a href="/{{ $locale }}/article/{{ $head->article_id }}">
+                                                    {{ $head->title }}
+                                                </a>
+                                            </h5>
+                                            <p class="member__desc">
+                                                {!! $head->content->text ?? '' !!}
+                                            </p>
+                                            <div class="mt-20 d-flex flex-wrap justify-content-between align-items-center">
+                                                <a href="/{{ $locale }}/article/{{ $head->article_id }}" class="btn btn__secondary btn__link btn__rounded">
+                                                    <span>Read More</span>
+                                                    <i class="icon-arrow-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- /.member-info -->
+                                    </div>
+                                    <!-- /.member -->
+                                @endforeach
+                                
+                            </div>
+                            <!-- /.carousel -->
+                        </div>
+                        <!-- /.col-12 -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container -->
+            </section>
+            <!-- /.Team -->
+        @endif
+    @endforeach
+@endforeach
+
+
+{{-- @if($headlines->has($cats[2] ?? 0))
     <section class="px-16">
         <div class="container">
             <p class="text-22 text-primary-100 font-semibold pl-16 mb-26 border-l-4 border-orange">{{ $categories->firstWhere('category_key', $cats[2])->category_name }}</p>
@@ -1505,52 +151,1100 @@
         </div>
     </section>
 @endif
-
-@if($headlines->has($cats[3] ?? 0))
-    <section class="px-16">
-        <div class="container">
-            <p class="text-22 text-primary-100 font-semibold pl-16 mb-26 border-l-4 border-orange">{{ $categories->firstWhere('category_key', $cats[3])->category_name }}</p>
-            <div class="slider-full owl-carousel owl-theme">
-                @foreach($headlines->get($cats[3])->slice(0, 8) as $item)
-                    <a class="item other-slider w-full relative flex flex-col" href="/{{ $locale }}/article/{{ $item->article_id }}">
-                        @include('includes.articles.image')
-                        @if($layouts['article'][$item->layout_id] != 'article')
-                            <img class="w-auto absolute top-0 m-12" src="/assets/svg/{{ $layouts['article'][$item->layout_id] }}-white.svg" alt="{{ $layouts['article'][$item->layout_id] }}">
-                        @endif
-                        <h2 class="mt-16 text-primary-100 text-18 font-semibold">{{ $item->title }}</h2>
-                        <p class="flex-grow pt-16 mt-auto text-15 text-primary-50">{{ $item->anons }}</p>
-                        <time class="relative-date long mt-16 text-15 text-orange block" datetime="{{ dateF($item->datetime_at) }}">{{ $item->datetime_at }}</time>
-                    </a>
-                @endforeach
+  --}}
+{{-- 
+<!-- ======================== About Layout 2 =========================== -->
+<section class="about-layout2 pb-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-7 offset-lg-1">
+                <div class="heading-layout2">
+                    <h3 class="heading__title mb-60">
+                        Improving The Quality Of Your <br /> Life Through Better Health.
+                    </h3>
+                </div>
+                <!-- /heading -->
             </div>
+            <!-- /.col-12 -->
         </div>
-    </section>
-@endif
+        <!-- /.row -->
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-5">
+                <div class="text-with-icon">
+                    <div class="text__icon"><i class="icon-doctor"></i></div>
+                    <div class="text__content">
+                        <p class="heading__desc font-weight-bold color-secondary mb-30">
+                            Our goal is to deliver quality of care in a courteous,respectful,and compassionate manner. We hope you will allow us to care for you and strive to be the first and best choice for healthcare.
+                        </p>
+                        <a href="doctors-timetable.html" class="btn btn__secondary btn__rounded mb-70"><span>Find A Doctor</span><i class="icon-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="video-banner-layout2 bg-overlay">
+                    <img src="assets/images/about/2.jpg" alt="about" class="w-100" />
+                    <a class="video__btn video__btn-white popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
+                        <div class="video__player"><i class="fa fa-play"></i></div>
+                        <span class="video__btn-title color-white">Watch Our Video!</span>
+                    </a>
+                </div>
+                <!-- /.video-banner -->
+            </div>
+            <!-- /.col-lg-6 -->
+            <div class="col-sm-12 col-md-12 col-lg-7">
+                <div class="about__text bg-white">
+                    <p class="heading__desc mb-30">
+                        Our goal is to deliver quality of care in a courteous,respectful,and compassionate manner. We hope you will allow us to care for you and to be the first and best choice for healthcare.
+                    </p>
+                    <p class="heading__desc mb-30">
+                        We will work with you to develop individualised care plans,including management of chronic diseases. We are committed to being the region’s premier healthcare network providing patient centered care that inspires clinical and service excellence.
+                    </p>
+                    <ul class="list-items list-unstyled">
+                        <li>We conduct a range of tests to help us work out why you're not feeling well and determine the right treatment for you.</li>
+                        <li>Our expert doctors, nurses and allied health professionals manage patients with a broad range of medical issues.</li>
+                        <li>We offer a wide range of care and support to our patients, from diagnosis to treatment and rehabilitation.</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.col-lg-6 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.About Layout 2 -->
 
-@if($headlines->has($cats[4] ?? 0))
-    <section class="px-16">
-        <div class="container">
-            <p class="text-22 text-primary-100 font-semibold pl-16 mb-26 border-l-4 border-orange">{{ $categories->firstWhere('category_key', $cats[4])->category_name }}</p>
-            <div class="slider-half owl-carousel owl-theme">
-                @foreach($headlines->get($cats[4])->slice(0, 4) as $item)
-                    <a class="item other-slider w-full relative grid grid-cols-6 bg-white shadow mb-12" href="/{{ $locale }}/article/{{ $item->article_id }}">
-                        @include('includes.articles.image', ['class' => 'col-span-6 lg:col-span-3'])
-                        <div class="col-span-6 flex flex-col @if($item->image) lg:col-span-3 @endif p-12 xl:p-26">
-                            <h2 class="text-primary-100 text-18 font-semibold">{{ $item->title }}</h2>
-                            <div class="flex-grow mt-16 mb-16 lg:mb-30">
-                                <p class="text-15 text-primary-50">{{ $item->anons }}</p>
-                            </div>
-                            <time class="relative-date long text-15 text-orange block" datetime="{{ dateF($item->datetime_at) }}">{{ $item->datetime_at }}</time>
+<!-- ========================
+Services Layout 1
+=========================== -->
+<section class="services-layout1 services-carousel">
+    <div class="bg-img"><img src="assets/images/backgrounds/2.jpg" alt="background" /></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                <div class="heading text-center mb-60">
+                    <h2 class="heading__subtitle">The Best Medical And General Practice Care!</h2>
+                    <h3 class="heading__title">Providing Medical Care For The Sickest In Our Community.</h3>
+                </div>
+                <!-- /.heading -->
+            </div>
+            <!-- /.col-lg-6 -->
+        </div>
+        <!-- /.row -->
+        <div class="row">
+            <div class="col-12">
+                <div class="slick-carousel" data-slick='{"slidesToShow":3,"slidesToScroll":1,"autoplay":true,"arrows":false,"dots":true,"responsive":[{"breakpoint":992,"settings":{"slidesToShow":2}},{"breakpoint":767,"settings":{"slidesToShow":1}},{"breakpoint":480,"settings":{"slidesToShow":1}}]}'>
+                    <!-- service item #1 -->
+                    <div class="service-item">
+                        <div class="service__icon">
+                            <i class="icon-head"></i>
+                            <i class="icon-head"></i>
                         </div>
-                    </a>
-                @endforeach
+                        <!-- /.service__icon -->
+                        <div class="service__content">
+                            <h4 class="service__title">Neurology Clinic</h4>
+                            <p class="service__desc">Some neurologists receive subspecialty training focusing on a particular area of the fields, these training programs are called fellowships, and are one to two years.</p>
+                            <ul class="list-items list-items-layout1 list-unstyled">
+                                <li>Neurocritical Care</li>
+                                <li>Neuro Oncology</li>
+                                <li>Geriatric Neurology</li>
+                            </ul>
+                            <a href="services-single.html" class="btn btn__secondary btn__outlined btn__rounded">
+                                <span>Read More</span>
+                                <i class="icon-arrow-right"></i>
+                            </a>
+                        </div>
+                        <!-- /.service__content -->
+                    </div>
+                    <!-- /.service-item -->
+                    <!-- service item #2 -->
+                    <div class="service-item">
+                        <div class="service__icon">
+                            <i class="icon-heart"></i>
+                            <i class="icon-heart"></i>
+                        </div>
+                        <!-- /.service__icon -->
+                        <div class="service__content">
+                            <h4 class="service__title">Cardiology Clinic</h4>
+                            <p class="service__desc">All cardiologists study the disorders of the heart, but the study of adult and child heart disorders are trained to take care of small children and adult heart disease.</p>
+                            <ul class="list-items list-items-layout1 list-unstyled">
+                                <li>Neurocritical Care</li>
+                                <li>Neuro Oncology</li>
+                                <li>Geriatric Neurology</li>
+                            </ul>
+                            <a href="services-single.html" class="btn btn__secondary btn__outlined btn__rounded">
+                                <span>Read More</span>
+                                <i class="icon-arrow-right"></i>
+                            </a>
+                        </div>
+                        <!-- /.service__content -->
+                    </div>
+                    <!-- /.service-item -->
+                    <!-- service item #3 -->
+                    <div class="service-item">
+                        <div class="service__icon">
+                            <i class="icon-microscope"></i>
+                            <i class="icon-microscope"></i>
+                        </div>
+                        <!-- /.service__icon -->
+                        <div class="service__content">
+                            <h4 class="service__title">Pathology Clinic</h4>
+                            <p class="service__desc">Pathology is the study of disease, it is the bridge between science and medicine. Also it underpins every aspect of patient care, from diagnostic testing and treatment.</p>
+                            <ul class="list-items list-items-layout1 list-unstyled">
+                                <li>Surgical Pathology</li>
+                                <li>Histopathology</li>
+                                <li>Cytopathology</li>
+                            </ul>
+                            <a href="services-single.html" class="btn btn__secondary btn__outlined btn__rounded">
+                                <span>Read More</span>
+                                <i class="icon-arrow-right"></i>
+                            </a>
+                        </div>
+                        <!-- /.service__content -->
+                    </div>
+                    <!-- /.service-item -->
+                    <!-- service item #4 -->
+                    <div class="service-item">
+                        <div class="service__icon">
+                            <i class="icon-dropper"></i>
+                            <i class="icon-dropper"></i>
+                        </div>
+                        <!-- /.service__icon -->
+                        <div class="service__content">
+                            <h4 class="service__title">Laboratory Analysis</h4>
+                            <p class="service__desc">Analyzing the radon or radon progeny concentrations with passive devices, or the act of calibrating radon or radon progeny measurement devices.</p>
+                            <ul class="list-items list-items-layout1 list-unstyled">
+                                <li>Newborn Care</li>
+                                <li>Umbilical Cord Appearance</li>
+                                <li>Repositioning Techniques</li>
+                            </ul>
+                            <a href="services-single.html" class="btn btn__secondary btn__outlined btn__rounded">
+                                <span>Read More</span>
+                                <i class="icon-arrow-right"></i>
+                            </a>
+                        </div>
+                        <!-- /.service__content -->
+                    </div>
+                    <!-- /.service-item -->
+                    <!-- service item #5 -->
+                    <div class="service-item">
+                        <div class="service__icon">
+                            <i class="icon-heart3"></i>
+                            <i class="icon-heart3"></i>
+                        </div>
+                        <!-- /.service__icon -->
+                        <div class="service__content">
+                            <h4 class="service__title">Pediatric Clinic</h4>
+                            <p class="service__desc">Pediatric providers see patients from birth into early adulthood to make sure children achieve stay healthy. Our care includes preventive health checkups.</p>
+                            <ul class="list-items list-items-layout1 list-unstyled">
+                                <li>Clinical laboratory</li>
+                                <li>Research Analyst</li>
+                                <li>Quality Assurance</li>
+                            </ul>
+                            <a href="services-single.html" class="btn btn__secondary btn__outlined btn__rounded">
+                                <span>Read More</span>
+                                <i class="icon-arrow-right"></i>
+                            </a>
+                        </div>
+                        <!-- /.service__content -->
+                    </div>
+                    <!-- /.service-item -->
+                    <!-- service item #6 -->
+                    <div class="service-item">
+                        <div class="service__icon">
+                            <i class="icon-heart2"></i>
+                            <i class="icon-heart2"></i>
+                        </div>
+                        <!-- /.service__icon -->
+                        <div class="service__content">
+                            <h4 class="service__title">Cardiac Clinic</h4>
+                            <p class="service__desc">For people requiring additional follow up, the Cardiac Clinic provides rapid access to professionals specialized in diagnosing and treating heart disease.</p>
+                            <ul class="list-items list-items-layout1 list-unstyled">
+                                <li>Macular degeneration</li>
+                                <li>Diabetic retinopathy</li>
+                                <li>Excessive tearing</li>
+                            </ul>
+                            <a href="services-single.html" class="btn btn__secondary btn__outlined btn__rounded">
+                                <span>Read More</span>
+                                <i class="icon-arrow-right"></i>
+                            </a>
+                        </div>
+                        <!-- /.service__content -->
+                    </div>
+                    <!-- /.service-item -->
+                </div>
             </div>
+            <!-- /.col-12 -->
         </div>
-    </section>
-@endif
---}}
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.Services Layout 1 -->
+
+<!-- ========================
+Notses
+=========================== -->
+<section class="notes border-top pt-60 pb-60">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="note font-weight-bold">
+                    <i class="far fa-file-alt color-primary"></i>
+                    <span>Delivering tomorrow’s health care for your family.</span>
+                    <a href="doctors-timetable.html" class="btn btn__link btn__secondary"> <span>View Doctors’ Timetable</span><i class="icon-arrow-right"></i> </a>
+                </div>
+            </div>
+            <!-- /.col-sm-6 -->
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="info__meta d-flex flex-wrap justify-content-between align-items-center">
+                    <div class="testimonials__rating">
+                        <div class="testimonials__rating-inner d-flex align-items-center">
+                            <span class="total__rate">4.9</span>
+                            <div>
+                                <span class="overall__rate">Zocdoc Overall Rating</span>
+                                <span>, based on 7541 reviews.</span>
+                            </div>
+                        </div>
+                        <!-- /.testimonials__rating-inner -->
+                    </div>
+                    <!-- /.testimonials__rating -->
+                    <a href="appointment.html" class="btn btn__primary btn__rounded"> <span>Make Appointment</span> <i class="icon-arrow-right"></i> </a>
+                </div>
+                <!-- /.info__meta -->
+            </div>
+            <!-- /.col-sm-6 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.notes -->
+
+<!-- ======================
+Features Layout 2
+========================= -->
+<section class="features-layout2 pt-130 bg-overlay bg-overlay-primary">
+    <div class="bg-img"><img src="assets/images/backgrounds/2.jpg" alt="background" /></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-1">
+                <div class="heading__layout2 mb-50">
+                    <h3 class="heading__title color-white">Medcity Has Touched The Lives Of Patients & Providing Care for The Sickest In Our Community.</h3>
+                </div>
+            </div>
+            <!-- /col-lg-5 -->
+        </div>
+        <!-- /.row -->
+        <div class="row mb-100">
+            <div class="col-sm-3 col-md-3 col-lg-1 offset-lg-5">
+                <div class="heading__icon">
+                    <i class="icon-insurance"></i>
+                </div>
+            </div>
+            <!-- /.col-lg-5 -->
+            <div class="col-sm-9 col-md-9 col-lg-6">
+                <p class="heading__desc font-weight-bold color-white mb-30">
+                    Medcity has been present in Europe since 1990, offering innovative solutions, specializing in medical services for treatment of medical infrastructure. With over 100 professionals actively participates in numerous initiatives aimed at creating sustainable
+                    change for patients!
+                </p>
+                <a href="#" class="btn btn__white btn__link">
+                    <i class="icon-arrow-right icon-filled"></i>
+                    <span>Our Core Values</span>
+                </a>
+            </div>
+            <!-- /.col-lg-6 -->
+        </div>
+        <!-- /.row -->
+        <div class="row">
+            <!-- Feature item #1 -->
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="feature-item">
+                    <div class="feature__img">
+                        <img src="assets/images/services/1.jpg" alt="service" loading="lazy" />
+                    </div>
+                    <!-- /.feature__img -->
+                    <div class="feature__content">
+                        <div class="feature__icon">
+                            <i class="icon-heart"></i>
+                        </div>
+                        <h4 class="feature__title">Medical Advices & Check Ups</h4>
+                    </div>
+                    <!-- /.feature__content -->
+                    <a href="#" class="btn__link">
+                        <i class="icon-arrow-right icon-outlined"></i>
+                    </a>
+                </div>
+                <!-- /.feature-item -->
+            </div>
+            <!-- /.col-lg-3 -->
+            <!-- Feature item #2 -->
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="feature-item">
+                    <div class="feature__img">
+                        <img src="assets/images/services/2.jpg" alt="service" loading="lazy" />
+                    </div>
+                    <!-- /.feature__img -->
+                    <div class="feature__content">
+                        <div class="feature__icon">
+                            <i class="icon-doctor"></i>
+                        </div>
+                        <h4 class="feature__title">Trusted Medical Treatment</h4>
+                    </div>
+                    <!-- /.feature__content -->
+                    <a href="#" class="btn__link">
+                        <i class="icon-arrow-right icon-outlined"></i>
+                    </a>
+                </div>
+                <!-- /.feature-item -->
+            </div>
+            <!-- /.col-lg-3 -->
+            <!-- Feature item #3 -->
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="feature-item">
+                    <div class="feature__img">
+                        <img src="assets/images/services/3.jpg" alt="service" loading="lazy" />
+                    </div>
+                    <!-- /.feature__img -->
+                    <div class="feature__content">
+                        <div class="feature__icon">
+                            <i class="icon-ambulance"></i>
+                        </div>
+                        <h4 class="feature__title">Emergency Help Available 24/7</h4>
+                    </div>
+                    <!-- /.feature__content -->
+                    <a href="#" class="btn__link">
+                        <i class="icon-arrow-right icon-outlined"></i>
+                    </a>
+                </div>
+                <!-- /.feature-item -->
+            </div>
+            <!-- /.col-lg-3 -->
+            <!-- Feature item #4 -->
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="feature-item">
+                    <div class="feature__img">
+                        <img src="assets/images/services/4.jpg" alt="service" loading="lazy" />
+                    </div>
+                    <!-- /.feature__img -->
+                    <div class="feature__content">
+                        <div class="feature__icon">
+                            <i class="icon-drugs"></i>
+                        </div>
+                        <h4 class="feature__title">Medical Research Professionals</h4>
+                    </div>
+                    <!-- /.feature__content -->
+                    <a href="#" class="btn__link">
+                        <i class="icon-arrow-right icon-outlined"></i>
+                    </a>
+                </div>
+                <!-- /.feature-item -->
+            </div>
+            <!-- /.col-lg-3 -->
+            <!-- Feature item #5 -->
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="feature-item">
+                    <div class="feature__img">
+                        <img src="assets/images/services/5.jpg" alt="service" loading="lazy" />
+                    </div>
+                    <!-- /.feature__img -->
+                    <div class="feature__content">
+                        <div class="feature__icon">
+                            <i class="icon-first-aid-kit"></i>
+                        </div>
+                        <h4 class="feature__title">Only Qualified Doctors</h4>
+                    </div>
+                    <!-- /.feature__content -->
+                    <a href="#" class="btn__link">
+                        <i class="icon-arrow-right icon-outlined"></i>
+                    </a>
+                </div>
+                <!-- /.feature-item -->
+            </div>
+            <!-- /.col-lg-3 -->
+            <!-- Feature item #6 -->
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="feature-item">
+                    <div class="feature__img">
+                        <img src="assets/images/services/6.jpg" alt="service" loading="lazy" />
+                    </div>
+                    <!-- /.feature__img -->
+                    <div class="feature__content">
+                        <div class="feature__icon">
+                            <i class="icon-hospital"></i>
+                        </div>
+                        <h4 class="feature__title">Cutting Edge Facility</h4>
+                    </div>
+                    <!-- /.feature__content -->
+                    <a href="#" class="btn__link">
+                        <i class="icon-arrow-right icon-outlined"></i>
+                    </a>
+                </div>
+                <!-- /.feature-item -->
+            </div>
+            <!-- /.col-lg-3 -->
+            <!-- Feature item #7 -->
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="feature-item">
+                    <div class="feature__img">
+                        <img src="assets/images/services/7.jpg" alt="service" loading="lazy" />
+                    </div>
+                    <!-- /.feature__img -->
+                    <div class="feature__content">
+                        <div class="feature__icon">
+                            <i class="icon-expenses"></i>
+                        </div>
+                        <h4 class="feature__title">Affordable Prices For All Patients</h4>
+                    </div>
+                    <!-- /.feature__content -->
+                    <a href="#" class="btn__link">
+                        <i class="icon-arrow-right icon-outlined"></i>
+                    </a>
+                </div>
+                <!-- /.feature-item -->
+            </div>
+            <!-- /.col-lg-3 -->
+            <!-- Feature item #8 -->
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="feature-item">
+                    <div class="feature__img">
+                        <img src="assets/images/services/8.jpg" alt="service" loading="lazy" />
+                    </div>
+                    <!-- /.feature__img -->
+                    <div class="feature__content">
+                        <div class="feature__icon">
+                            <i class="icon-bandage"></i>
+                        </div>
+                        <h4 class="feature__title">Quality Care For Every Patient</h4>
+                    </div>
+                    <!-- /.feature__content -->
+                    <a href="#" class="btn__link">
+                        <i class="icon-arrow-right icon-outlined"></i>
+                    </a>
+                </div>
+                <!-- /.feature-item -->
+            </div>
+            <!-- /.col-lg-3 -->
+        </div>
+        <!-- /.row -->
+        <div class="row">
+            <div class="col-md-12 col-lg-6 offset-lg-3 text-center">
+                <p class="font-weight-bold color-gray mb-0">
+                    We hope you will allow us to care for you and strive to be the first and best choice for healthcare.
+                    <a href="#" class="color-secondary"> <span>Contact Us For More Information</span> <i class="icon-arrow-right"></i> </a>
+                </p>
+            </div>
+            <!-- /.col-lg-6 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.Features Layout 2 -->
+
+<!-- ======================
+Team
+========================= -->
+<section class="team-layout2 pb-80">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                <div class="heading text-center mb-40">
+                    <h3 class="heading__title">Meet Our Doctors</h3>
+                    <p class="heading__desc">Our administration and support staff all have exceptional people skills and trained to assist you with all medical enquiries.</p>
+                </div>
+                <!-- /.heading -->
+            </div>
+            <!-- /.col-lg-6 -->
+        </div>
+        <!-- /.row -->
+        <div class="row">
+            <div class="col-12">
+                <div class="slick-carousel" data-slick='{"slidesToShow":3,"slidesToScroll":1,"autoplay":true,"arrows":false,"dots":false,"responsive":[{"breakpoint":992,"settings":{"slidesToShow":2}},{"breakpoint":767,"settings":{"slidesToShow":1}},{"breakpoint":480,"settings":{"slidesToShow":1}}]}'>
+                    <!-- Member #1 -->
+                    <div class="member">
+                        <div class="member__img">
+                            <img src="assets/images/team/1.jpg" alt="member img" />
+                        </div>
+                        <!-- /.member-img -->
+                        <div class="member__info">
+                            <h5 class="member__name"><a href="doctors-single-doctor1.html">Mike Dooley</a></h5>
+                            <p class="member__job">Cardiology Specialist</p>
+                            <p class="member__desc">Muldoone obtained his undergraduate degree in Biomedical Engineering at Tulane University prior to attending St George's University School of Medicine</p>
+                            <div class="mt-20 d-flex flex-wrap justify-content-between align-items-center">
+                                <a href="doctors-single-doctor1.html" class="btn btn__secondary btn__link btn__rounded"><span>Read More</span><i class="icon-arrow-right"></i></a>
+                                <ul class="social-icons list-unstyled mb-0">
+                                    <li>
+                                        <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="phone"><i class="fas fa-phone-alt"></i></a>
+                                    </li>
+                                </ul>
+                                <!-- /.social-icons -->
+                            </div>
+                        </div>
+                        <!-- /.member-info -->
+                    </div>
+                    <!-- /.member -->
+                    <!-- Member #2 -->
+                    <div class="member">
+                        <div class="member__img"><img src="assets/images/team/2.jpg" alt="member img" /></div>
+                        <!-- /.member-img -->
+                        <div class="member__info">
+                            <h5 class="member__name"><a href="doctors-single-doctor1.html">Dermatologists</a></h5>
+                            <p class="member__job">Cardiology Specialist</p>
+                            <p class="member__desc">Brian specializes in treating skin,hair,nail,and mucous membrane. He also address cosmetic issues,helping to revitalize the appearance of the skin</p>
+                            <div class="mt-20 d-flex flex-wrap justify-content-between align-items-center">
+                                <a href="doctors-single-doctor1.html" class="btn btn__secondary btn__link btn__rounded"><span>Read More</span><i class="icon-arrow-right"></i></a>
+                                <ul class="social-icons list-unstyled mb-0">
+                                    <li>
+                                        <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="phone"><i class="fas fa-phone-alt"></i></a>
+                                    </li>
+                                </ul>
+                                <!-- /.social-icons -->
+                            </div>
+                        </div>
+                        <!-- /.member-info -->
+                    </div>
+                    <!-- /.member -->
+                    <!-- Member #3 -->
+                    <div class="member">
+                        <div class="member__img"><img src="assets/images/team/3.jpg" alt="member img" /></div>
+                        <!-- /.member-img -->
+                        <div class="member__info">
+                            <h5 class="member__name"><a href="doctors-single-doctor1.html">Maria Andaloro</a></h5>
+                            <p class="member__job">Pediatrician</p>
+                            <p class="member__desc">Andaloro graduated from medical school and completed 3 years residency program in pediatrics. She passed rigorous exams by the American Board of Pediatrics.</p>
+                            <div class="mt-20 d-flex flex-wrap justify-content-between align-items-center">
+                                <a href="doctors-single-doctor1.html" class="btn btn__secondary btn__link btn__rounded"><span>Read More</span><i class="icon-arrow-right"></i></a>
+                                <ul class="social-icons list-unstyled mb-0">
+                                    <li>
+                                        <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="phone"><i class="fas fa-phone-alt"></i></a>
+                                    </li>
+                                </ul>
+                                <!-- /.social-icons -->
+                            </div>
+                        </div>
+                        <!-- /.member-info -->
+                    </div>
+                    <!-- /.member -->
+                    <!-- Member #4 -->
+                    <div class="member">
+                        <div class="member__img"><img src="assets/images/team/4.jpg" alt="member img" /></div>
+                        <!-- /.member-img -->
+                        <div class="member__info">
+                            <h5 class="member__name"><a href="doctors-single-doctor1.html">Dupree Black</a></h5>
+                            <p class="member__job">Urologist</p>
+                            <p class="member__desc">Black diagnose and treat diseases of the urinary tract in both men and women. He also diagnose and treat anything involving the reproductive tract in men.</p>
+                            <div class="mt-20 d-flex flex-wrap justify-content-between align-items-center">
+                                <a href="doctors-single-doctor1.html" class="btn btn__secondary btn__link btn__rounded"><span>Read More</span><i class="icon-arrow-right"></i></a>
+                                <ul class="social-icons list-unstyled mb-0">
+                                    <li>
+                                        <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="phone"><i class="fas fa-phone-alt"></i></a>
+                                    </li>
+                                </ul>
+                                <!-- /.social-icons -->
+                            </div>
+                        </div>
+                        <!-- /.member-info -->
+                    </div>
+                    <!-- /.member -->
+                    <!-- Member #5 -->
+                    <div class="member">
+                        <div class="member__img"><img src="assets/images/team/5.jpg" alt="member img" /></div>
+                        <!-- /.member-img -->
+                        <div class="member__info">
+                            <h5 class="member__name"><a href="doctors-single-doctor1.html">Markus skar</a></h5>
+                            <p class="member__job">Laboratory</p>
+                            <p class="member__desc">Skar play a very important role in your health care. People working in the clinical laboratory are responsible for conducting tests that provide crucial information.</p>
+                            <div class="mt-20 d-flex flex-wrap justify-content-between align-items-center">
+                                <a href="doctors-single-doctor1.html" class="btn btn__secondary btn__link btn__rounded"><span>Read More</span><i class="icon-arrow-right"></i></a>
+                                <ul class="social-icons list-unstyled mb-0">
+                                    <li>
+                                        <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="phone"><i class="fas fa-phone-alt"></i></a>
+                                    </li>
+                                </ul>
+                                <!-- /.social-icons -->
+                            </div>
+                        </div>
+                        <!-- /.member-info -->
+                    </div>
+                    <!-- /.member -->
+                    <!-- Member #6 -->
+                    <div class="member">
+                        <div class="member__img"><img src="assets/images/team/6.jpg" alt="member img" /></div>
+                        <!-- /.member-img -->
+                        <div class="member__info">
+                            <h5 class="member__name"><a href="doctors-single-doctor1.html">Kiano Barker</a></h5>
+                            <p class="member__job">Pathologist</p>
+                            <p class="member__desc">Barker help care for patients every day by providing their doctors with the information needed to ensure appropriate care. He also valuable resources for other physicians.</p>
+                            <div class="mt-20 d-flex flex-wrap justify-content-between align-items-center">
+                                <a href="doctors-single-doctor1.html" class="btn btn__secondary btn__link btn__rounded"><span>Read More</span><i class="icon-arrow-right"></i></a>
+                                <ul class="social-icons list-unstyled mb-0">
+                                    <li>
+                                        <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="phone"><i class="fas fa-phone-alt"></i></a>
+                                    </li>
+                                </ul>
+                                <!-- /.social-icons -->
+                            </div>
+                        </div>
+                        <!-- /.member-info -->
+                    </div>
+                    <!-- /.member -->
+                </div>
+                <!-- /.carousel -->
+            </div>
+            <!-- /.col-12 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.Team -->
+<!-- ====================== Work Process ========================= -->
+<section class="work-process work-process-carousel pt-130 pb-0 bg-overlay bg-overlay-secondary">
+    <div class="bg-img"><img src="assets/images/banners/1.jpg" alt="background" /></div>
+    <div class="container">
+        <div class="row heading-layout2">
+            <div class="col-12">
+                <h2 class="heading__subtitle color-primary">Caring For The Health Of You And Your Family.</h2>
+            </div>
+            <!-- /.col-12 -->
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-5">
+                <h3 class="heading__title color-white">We Provide All Aspects Of Medical Practice For Your Whole Family!</h3>
+            </div>
+            <!-- /.col-xl-5 -->
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 offset-xl-1">
+                <p class="heading__desc font-weight-bold color-gray mb-40">
+                    We will work with you to develop individualised care plans,including management of chronic diseases. If we cannot assist,we can provide referrals or advice about the type of practitioner you require. We treat all enquiries sensitively and in the strictest
+                    confidence.
+                </p>
+                <ul class="list-items list-items-layout2 list-items-light list-horizontal list-unstyled">
+                    <li>Fractures and dislocations</li>
+                    <li>Health Assessments</li>
+                    <li>Desensitisation injections</li>
+                    <li>High Quality Care</li>
+                    <li>Desensitisation injections</li>
+                </ul>
+            </div>
+            <!-- /.col-xl-6 -->
+        </div>
+        <!-- /.row -->
+        <div class="row">
+            <div class="col-12">
+                <div class="carousel-container mt-90">
+                    <div class="slick-carousel" data-slick='{"slidesToShow": 4, "slidesToScroll": 1, "infinite":false, "arrows": false, "dots": false, "responsive": [{"breakpoint": 1200, "settings": {"slidesToShow": 3}}, {"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'>
+                        <!-- process item #1 -->
+                        <div class="process-item">
+                            <span class="process__number">01</span>
+                            <div class="process__icon"><i class="icon-health-report"></i></div>
+                            <!-- /.process__icon -->
+                            <h4 class="process__title">Fill In Our Medical Application</h4>
+                            <p class="process__desc">Medcity offers low-cost health coverage for adults with limited income,you can enroll.</p>
+                            <a href="#" class="btn btn__secondary btn__link"><span>Doctors’ Timetable</span><i class="icon-arrow-right"></i></a>
+                        </div>
+                        <!-- /.process-item -->
+                        <!-- process-item #2 -->
+                        <div class="process-item">
+                            <span class="process__number">02</span>
+                            <div class="process__icon"><i class="icon-dna"></i></div>
+                            <!-- /.process__icon -->
+                            <h4 class="process__title">Review Your Family Medical History</h4>
+                            <p class="process__desc">Regular health exams can help find all the problems,also can find it early chances.</p>
+                            <a href="#" class="btn btn__secondary btn__link"><span>Start A Check Up</span><i class="icon-arrow-right"></i></a>
+                        </div>
+                        <!-- /.process-item -->
+                        <!-- process-item #3 -->
+                        <div class="process-item">
+                            <span class="process__number">03</span>
+                            <div class="process__icon"><i class="icon-medicine"></i></div>
+                            <!-- /.process__icon -->
+                            <h4 class="process__title">Choose Between Our Care Programs</h4>
+                            <p class="process__desc">We have protocols to protect our patients while continuing to provide necessary care.</p>
+                            <a href="#" class="btn btn__secondary btn__link"><span>Explore Programs</span><i class="icon-arrow-right"></i></a>
+                        </div>
+                        <!-- /.process-item -->
+                        <!-- process-item #4 -->
+                        <div class="process-item">
+                            <span class="process__number">04</span>
+                            <div class="process__icon"><i class="icon-stethoscope"></i></div>
+                            <!-- /.process__icon -->
+                            <h4 class="process__title">Introduce You To Highly Qualified Doctors</h4>
+                            <p class="process__desc">Our administration and support staff have exceptional skills and trained to assist you.</p>
+                            <a href="#" class="btn btn__secondary btn__link"><span>Meet Our Doctors</span><i class="icon-arrow-right"></i></a>
+                        </div>
+                        <!-- /.process-item -->
+                        <!-- process-item #5 -->
+                        <div class="process-item">
+                            <span class="process__number">05</span>
+                            <div class="process__icon"><i class="icon-head"></i></div>
+                            <!-- /.process__icon -->
+                            <h4 class="process__title">Your custom Next process</h4>
+                            <p class="process__desc">Our administration and support staff have exceptional skills to assist you.</p>
+                            <a href="#" class="btn btn__secondary btn__link"><span>Meet Our Doctors</span><i class="icon-arrow-right"></i></a>
+                        </div>
+                        <!-- /.process-item -->
+                    </div>
+                    <!-- /.carousel -->
+                </div>
+            </div>
+            <!-- /.col-12 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+    <div class="cta bg-light-blue">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-md-2 col-lg-2"><img src="assets/images/icons/alert2.png" alt="alert" /></div>
+                <!-- /.col-lg-2 -->
+                <div class="col-sm-12 col-md-7 col-lg-7">
+                    <h4 class="cta__title">True Healthcare For Your Family!</h4>
+                    <p class="cta__desc">
+                        Serve the community by improving the quality of life through better health. We have put protocols to protect our patients and staff while continuing to provide medically necessary care.
+                    </p>
+                </div>
+                <!-- /.col-lg-7 -->
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <a href="appointment.html" class="btn btn__primary btn__secondary-style2 btn__rounded"><span>Healthcare Programs</span><i class="icon-arrow-right"></i></a>
+                </div>
+                <!-- /.col-lg-3 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.cta -->
+</section>
+<!-- /.Work Process -->
+<!-- ========================= Testimonials layout 2 ========================= -->
+<section class="testimonials-layout2 pt-130 pb-40">
+    <div class="container">
+        <div class="testimonials-wrapper">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-5">
+                    <div class="heading-layout2">
+                        <h3 class="heading__title">Inspiring Stories!</h3>
+                    </div>
+                    <!-- /.heading -->
+                </div>
+                <!-- /.col-lg-5 -->
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <div class="slider-with-navs">
+                        <!-- Testimonial #1 -->
+                        <div class="testimonial-item">
+                            <h3 class="testimonial__title">
+                                “Their doctors include highly qualified practitioners who come from a range of backgrounds and bring with them a diversity of skills and special interests. They also have registered nurses on staff who are available to triage any urgent matters,and the
+                                administration and support staff all have exceptional people skills”
+                            </h3>
+                        </div>
+                        <!-- /. testimonial-item -->
+                        <!-- Testimonial #2 -->
+                        <div class="testimonial-item">
+                            <h3 class="testimonial__title">
+                                “Their doctors include highly qualified practitioners who come from a range of backgrounds and bring with them a diversity of skills and special interests. They also have registered nurses on staff who are available to triage any urgent matters,and the
+                                administration and support staff all have exceptional people skills”
+                            </h3>
+                        </div>
+                        <!-- /. testimonial-item -->
+                        <!-- Testimonial #3 -->
+                        <div class="testimonial-item">
+                            <h3 class="testimonial__title">
+                                “Their doctors include highly qualified practitioners who come from a range of backgrounds and bring with them a diversity of skills and special interests. They also have registered nurses on staff who are available to triage any urgent matters,and the
+                                administration and support staff all have exceptional people skills”
+                            </h3>
+                        </div>
+                        <!-- /. testimonial-item -->
+                    </div>
+                    <!-- /.slick-carousel -->
+                    <div class="slider-nav mb-60">
+                        <div class="testimonial__meta">
+                            <div class="testimonial__thmb"><img src="assets/images/testimonials/thumbs/1.png" alt="author thumb" /></div>
+                            <!-- /.testimonial-thumb -->
+                            <div>
+                                <h4 class="testimonial__meta-title">Sami Wade</h4>
+                                <p class="testimonial__meta-desc">7oroof Inc</p>
+                            </div>
+                        </div>
+                        <!-- /.testimonial-meta -->
+                        <div class="testimonial__meta">
+                            <div class="testimonial__thmb"><img src="assets/images/testimonials/thumbs/2.png" alt="author thumb" /></div>
+                            <!-- /.testimonial-thumb -->
+                            <div>
+                                <h4 class="testimonial__meta-title">Ahmed</h4>
+                                <p class="testimonial__meta-desc">Web Inc</p>
+                            </div>
+                        </div>
+                        <!-- /.testimonial-meta -->
+                        <div class="testimonial__meta">
+                            <div class="testimonial__thmb"><img src="assets/images/testimonials/thumbs/3.png" alt="author thumb" /></div>
+                            <!-- /.testimonial-thumb -->
+                            <div>
+                                <h4 class="testimonial__meta-title">Sonia Blake</h4>
+                                <p class="testimonial__meta-desc">Web Inc</p>
+                            </div>
+                        </div>
+                        <!-- /.testimonial-meta -->
+                    </div>
+                    <!-- /.slider-nav -->
+                </div>
+                <!-- /.col-lg-7 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.testimonials-wrapper -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.testimonials layout 2 -->
+<!-- ======================== gallery =========================== -->
+<section class="gallery pt-0 pb-90">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="slick-carousel" data-slick='{"slidesToShow": 4, "slidesToScroll": 1, "autoplay": true, "arrows": true, "dots": false, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'>
+                    <a class="popup-gallery-item" href="assets/images/gallery/1.jpg"><img src="assets/images/gallery/1.jpg" alt="gallery img" /></a>
+                    <a class="popup-gallery-item" href="assets/images/gallery/2.jpg"><img src="assets/images/gallery/2.jpg" alt="gallery img" /></a>
+                    <a class="popup-gallery-item" href="assets/images/gallery/3.jpg"><img src="assets/images/gallery/3.jpg" alt="gallery img" /></a>
+                    <a class="popup-gallery-item" href="assets/images/gallery/4.jpg"><img src="assets/images/gallery/4.jpg" alt="gallery img" /></a>
+                    <a class="popup-gallery-item" href="assets/images/gallery/5.jpg"><img src="assets/images/gallery/5.jpg" alt="gallery img" /></a>
+                    <a class="popup-gallery-item" href="assets/images/gallery/6.jpg"><img src="assets/images/gallery/6.jpg" alt="gallery img" /></a>
+                </div>
+                <!-- /.gallery-images-wrapper -->
+            </div>
+            <!-- /.col-xl-5 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.gallery 2 -->
+<!-- ========================== contact layout 3 =========================== -->
+<section class="contact-layout3 bg-overlay bg-overlay-primary-gradient pb-60">
+    <div class="bg-img"><img src="assets/images/banners/3.jpg" alt="banner" /></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-7">
+                <div class="contact-panel mb-50">
+                    <form class="contact-panel__form" method="post" action="http://v.bootstrapmb.com/2021/4/cxuhc10075/assets/php/contact.php" id="contactForm">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4 class="contact-panel__title">Book An Appointment</h4>
+                                <p class="contact-panel__desc mb-30">Please feel welcome to contact our friendly reception staff with any general or medical enquiry. Our doctors will receive or return any urgent calls.</p>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <div class="form-group">
+                                    <i class="icon-widget form-group-icon"></i>
+                                    <select class="form-control">
+                                            <option value="0">Choose Clinic</option>
+                                            <option value="1">Pathology Clinic</option>
+                                            <option value="2">Pathology Clinic</option>
+                                        </select>
+                                </div>
+                            </div>
+                            <!-- /.col-lg-6 -->
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <div class="form-group">
+                                    <i class="icon-user form-group-icon"></i>
+                                    <select class="form-control">
+                                            <option value="0">Choose Doctor</option>
+                                            <option value="1">Ahmed Abdallah</option>
+                                            <option value="2">Mahmoud Begha</option>
+                                        </select>
+                                </div>
+                            </div>
+                            <!-- /.col-lg-6 -->
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <div class="form-group"><i class="icon-news form-group-icon"></i><input type="text" class="form-control" placeholder="Name" id="contact-name" name="contact-name" required /></div>
+                            </div>
+                            <!-- /.col-lg-6 -->
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <div class="form-group"><i class="icon-email form-group-icon"></i><input type="email" class="form-control" placeholder="Email" id="contact-email" name="contact-email" required /></div>
+                            </div>
+                            <!-- /.col-lg-6 -->
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <div class="form-group"><i class="icon-phone form-group-icon"></i><input type="text" class="form-control" placeholder="Phone" id="contact-Phone" name="contact-phone" required /></div>
+                            </div>
+                            <!-- /.col-lg-4 -->
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <div class="form-group form-group-date"><i class="icon-calendar form-group-icon"></i><input type="date" class="form-control" id="contact-date" name="contact-date" required /></div>
+                            </div>
+                            <!-- /.col-lg-4 -->
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <div class="form-group form-group-date"><i class="icon-clock form-group-icon"></i><input type="time" class="form-control" id="contact-time" name="contact-time" required /></div>
+                            </div>
+                            <!-- /.col-lg-4 -->
+                            <div class="col-12">
+                                <button type="submit" class="btn btn__secondary btn__rounded btn__block btn__xhight mt-10"><span>Book Appointment</span><i class="icon-arrow-right"></i></button>
+                                <div class="contact-result"></div>
+                            </div>
+                            <!-- /.col-lg-12 -->
+                        </div>
+                        <!-- /.row -->
+                    </form>
+                </div>
+            </div>
+            <!-- /.col-lg-7 -->
+            <div class="col-sm-12 col-md-12 col-lg-5">
+                <div class="heading heading-light mb-30">
+                    <h3 class="heading__title mb-30">Helping Patients From Around the Globe!!</h3>
+                    <p class="heading__desc">Our staff strives to make each interaction with patients clear,concise,and inviting. Support the important work of Medicsh Hospital by making a much-needed donation today.</p>
+                </div>
+                <div class="d-flex align-items-center">
+                    <a href="contact-us.html" class="btn btn__white btn__rounded mr-30"><i class="fas fa-heart"></i><span>Make A Gift</span></a>
+                    <a class="video__btn video__btn-white popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
+                        <div class="video__player"><i class="fa fa-play"></i></div>
+                        <span class="video__btn-title color-white">Play Video</span>
+                    </a>
+                </div>
+                <div class="text__block">
+                    <p class="text__block-desc color-white font-weight-bold">We provide a comprehensive range of plans for families and individuals at every stage of life,with annual limits ranging from £1.5m to unlimited.</p>
+                    <div class="sinature color-white"><span class="font-weight-bold">Martin Qube</span><span>,Medcity Manager</span></div>
+                </div>
+                <!-- /.text__block -->
+                <div class="slick-carousel clients-light mt-20" data-slick='{"slidesToShow": 3, "arrows": false, "dots": false, "autoplay": true,"autoplaySpeed": 2000, "infinite": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 3}}, {"breakpoint": 767, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 2}}]}'>
+                    <div class="client"><img src="assets/images/clients/1.png" alt="client" /><img src="assets/images/clients/1.png" alt="client" /></div>
+                    <!-- /.client -->
+                    <div class="client"><img src="assets/images/clients/2.png" alt="client" /><img src="assets/images/clients/2.png" alt="client" /></div>
+                    <!-- /.client -->
+                    <div class="client"><img src="assets/images/clients/3.png" alt="client" /><img src="assets/images/clients/3.png" alt="client" /></div>
+                    <!-- /.client -->
+                    <div class="client"><img src="assets/images/clients/4.png" alt="client" /><img src="assets/images/clients/4.png" alt="client" /></div>
+                    <!-- /.client -->
+                    <div class="client"><img src="assets/images/clients/5.png" alt="client" /><img src="assets/images/clients/5.png" alt="client" /></div>
+                    <!-- /.client -->
+                    <div class="client"><img src="assets/images/clients/6.png" alt="client" /><img src="assets/images/clients/6.png" alt="client" /></div>
+                    <!-- /.client -->
+                    <div class="client"><img src="assets/images/clients/7.png" alt="client" /><img src="assets/images/clients/7.png" alt="client" /></div>
+                    <!-- /.client -->
+                </div>
+                <!-- /.carousel -->
+            </div>
+            <!-- /.col-lg-5 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.contact layout 3 -->
+<!-- ====================== Blog Grid ========================= -->
+<section class="blog-grid pb-50">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                <div class="heading text-center mb-40">
+                    <h2 class="heading__subtitle">Resource Library</h2>
+                    <h3 class="heading__title">Recent Articles</h3>
+                </div>
+                <!-- /.heading -->
+            </div>
+            <!-- /.col-lg-6 -->
+        </div>
+        <!-- /.row -->
+        <div class="row">
+            <!-- Post Item #1 -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="post-item">
+                    <div class="post__img">
+                        <a href="blog-single-post.html"><img src="assets/images/blog/grid/1.jpg" alt="post image" loading="lazy" /></a>
+                    </div>
+                    <!-- /.post__img -->
+                    <div class="post__body">
+                        <div class="post__meta-cat"><a href="#">Mental Health</a></div>
+                        <!-- /.blog-meta-cat -->
+                        <div class="post__meta d-flex"><span class="post__meta-date">Jan 30,2022</span><a class="post__meta-author" href="#">Martin King</a></div>
+                        <h4 class="post__title"><a href="#">6 Tips to Protect Your Mental Health When You’re Sick</a></h4>
+                        <p class="post__desc">It’s normal to feel anxiety,worry and grief any time you’re diagnosed with a condition that’s certainly true if you test positive for COVID-19,or are presumed to be positive...</p>
+                        <a href="blog-single-post.html" class="btn btn__secondary btn__link btn__rounded"><span>Read More</span><i class="icon-arrow-right"></i></a>
+                    </div>
+                    <!-- /.post__body -->
+                </div>
+                <!-- /.post-item -->
+            </div>
+            <!-- /.col-lg-4 -->
+            <!-- Post Item #2 -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="post-item">
+                    <div class="post__img">
+                        <a href="blog-single-post.html"><img src="assets/images/blog/grid/2.jpg" alt="post image" loading="lazy" /></a>
+                    </div>
+                    <!-- /.post__img -->
+                    <div class="post__body">
+                        <div class="post__meta-cat"><a href="#">Infectious</a><a href="#">Tips</a></div>
+                        <!-- /.blog-meta-cat -->
+                        <div class="post__meta d-flex"><span class="post__meta-date">Jan 30,2022</span><a class="post__meta-author" href="#">John Ezak</a></div>
+                        <h4 class="post__title"><a href="#">Unsure About Wearing a Face Mask? Here’s How and Why</a></h4>
+                        <p class="post__desc">That means that you should still be following any shelter-in-place orders in your community. But when you’re venturing out to the grocery store,pharmacy or hospital..</p>
+                        <a href="blog-single-post.html" class="btn btn__secondary btn__link btn__rounded"><span>Read More</span><i class="icon-arrow-right"></i></a>
+                    </div>
+                    <!-- /.post__body -->
+                </div>
+                <!-- /.post-item -->
+            </div>
+            <!-- /.col-lg-4 -->
+            <!-- Post Item #3 -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="post-item">
+                    <div class="post__img">
+                        <a href="blog-single-post.html"><img src="assets/images/blog/grid/3.jpg" alt="post image" loading="lazy" /></a>
+                    </div>
+                    <!-- /.post__img -->
+                    <div class="post__body">
+                        <div class="post__meta-cat"><a href="#">Life Style</a><a href="#">Nutrition</a></div>
+                        <!-- /.blog-meta-cat -->
+                        <div class="post__meta d-flex"><span class="post__meta-date">Jan 28,2022</span><a class="post__meta-author" href="#">Saul Wade</a></div>
+                        <h4 class="post__title"><a href="#">Tips for Eating Healthy When You’re Working From Home </a></h4>
+                        <p class="post__desc">It’s normal to feel anxiety,worry and grief any time you’re diagnosed with a condition that’s certainly true if you test positive for COVID-19,or are presumed to be positive...</p>
+                        <a href="blog-single-post.html" class="btn btn__secondary btn__link btn__rounded"><span>Read More</span><i class="icon-arrow-right"></i></a>
+                    </div>
+                    <!-- /.post__body -->
+                </div>
+                <!-- /.post-item -->
+            </div>
+            <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.blog Grid -->
+ --}}
+
+
 @stop
 
-{{--@section('schema')--}}
-{{--    @include('includes.microdata.home')--}}
-{{--@stop--}}
+@section('schema')
+    @include('includes.microdata.home')
+@stop
