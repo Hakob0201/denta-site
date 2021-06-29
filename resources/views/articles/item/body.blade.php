@@ -6,7 +6,27 @@
     @endif
 @stop
 
-<div class="flex lg:block flex-col p-16 sm:px-0 lg:my-45">
+<div class="post__body pb-0">
+    <div class="post__meta-cat"><a href="#">Consulting</a><a href="#">Sales</a></div>
+    <!-- /.blog-meta-cat -->
+    <div class="post__meta d-flex align-items-center mb-20">
+        <span class="post__meta-date">
+            {{ $article->contents->datetime_at }}
+        </span>
+        <a class="post__meta-author" href="#">Martin King</a>
+        <a class="post__meta-comments">{{ $article->contents->comment }} coments</a>
+    </div>
+    <!-- /.blog-meta -->
+    <h1 class="post__title mb-30">
+        {{ $article->contents->title }}
+    </h1>
+    <div class="post__desc">
+        {!! $article->contents->text ?? '' !!}
+    </div>
+    <!-- /.blog-desc -->
+</div>
+
+{{-- <div class="flex lg:block flex-col p-16 sm:px-0 lg:my-45">
     <div class="author-share order-last sticky pr-12 mb-26 lg:float-left flex flex-col text-16 text-primary-50">
         <time class="relative-date long"
               datetime="{{ dateF($article->contents->datetime_at) }}">{{ $article->contents->datetime_at }}</time>
@@ -41,4 +61,4 @@
         {!! articleBody($article) !!}
         @include('includes.articles.tags', ['color' => 'orange', 'item' => $article])
     </div>
-</div>
+</div> --}}
